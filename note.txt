@@ -7,3 +7,4 @@ http://stackoverflow.com/questions/375080/how-do-you-manage-software-serial-keys
 http://stackoverflow.com/questions/534215/how-to-get-unique-hardware-software-signature-from-a-windows-pc-in-c-c/534243#534243
 
 CAL (Client Access License)
+http://www.ytria.com/WebSite.nsf/WebPageRequest/RegisterFAQen
