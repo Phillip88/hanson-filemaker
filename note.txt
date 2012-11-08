@@ -1,0 +1,7 @@
+http://www.filemaker.com/help/html/create_script.12.36.html#1028916
+113.160.225.76
+http://stackoverflow.com/questions/599837/how-to-generate-and-validate-a-software-license-key
+
+http://stackoverflow.com/questions/375080/how-do-you-manage-software-serial-keys-licenses-etc?rq=1
+
+http://stackoverflow.com/questions/534215/how-to-get-unique-hardware-software-signature-from-a-windows-pc-in-c-c/534243#534243
