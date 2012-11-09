@@ -9,3 +9,5 @@ http://stackoverflow.com/questions/534215/how-to-get-unique-hardware-software-si
 CAL (Client Access License)
 http://www.ytria.com/WebSite.nsf/WebPageRequest/RegisterFAQen
 http://www.symantec.com/business/support/index?page=content&id=HOWTO55294proceed
+
+http://www.24usoftware.com/PlugInTemplate
