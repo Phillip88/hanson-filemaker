@@ -13,3 +13,8 @@ http://www.symantec.com/business/support/index?page=content&id=HOWTO55294proceed
 http://www.24usoftware.com/PlugInTemplate
 
 Iexpress.exe
+
+License management tool example.
++Engagent Software License Management 
++Software License Tracker (http://www.softmart.com/solutions/microsoft-solutions-center/software-license-tracker.asp)
++Quick License Manager Agent
