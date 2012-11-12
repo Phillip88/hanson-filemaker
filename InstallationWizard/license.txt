@@ -1,0 +1,56 @@
+Software License Agreement:
+Please read this software license agreement before using the software. By using the software, you are agreeing to be bound by the terms of this license.
+
+You expressly acknowledge and agree that use of the software is at your sole risk and that the entire risk as to satisfactory quality, performance, accuracy, and effort is with you.
+
+The software is provided "as is," with all faults and without warranty of any kind. You deem by having installed the trial or had the software installed for more than 7 days, that it is "fit for purpose". You agree to provide an internet connection for the install and uninstall of the software, without this the licence can not be verified and an email, telephone call or fax will not replace this electronic confirmation.
+
+In no event shall your use in any way of the software, make the company, it's directors, employees, sub-contractors or distributors of the software liable for personal injury, or any incidental, special, indirect or consequential damages whatsoever, including, without limitation, damages for loss of profits, loss of data, business interruption or any other commercial damages or losses of any kind whatsoever, arising out of or related to your use, the use of others you grant permission of use or inability to use the software, however caused.
+You shall and agree to indemnify and pay all costs and damages to the company, if any of your actions or or your permitted use of the software to others shall bring or cause to bring legal action against the company, it's directors, sub-contractors or distributors. This includes but is not limited to, your or others you permit to use the software - reverse engineering, modification of code that obtains data or malicous code that may or may not cause loss of data to the vendor, it's client's or give grounds for legal proceedings, financial loss or investigation.
+
+Back up your data:
+Before using the software, back up your data. 
+The software is not problem-free, and no user is infallible. Back up your data using Time Machine or any third-party backup utility.
+
+Verifying startup disk:
+Before running Maintenance or Cleaning tasks, you should check the S.M.A.R.T. status of the startup disk and its system files. 
+
+These verifications are essential and errors in the structure of system files are not uncommon and can have disastrous consequences if they're not repaired.
+
+Computer does not respond:
+The software cannot destroy the System. 
+If your computer does not respond during the verification of the volume by a third party software program, the software is not the cause. 
+This may be expected and normal behavior! After the third party software program has finished checking, control should be returned to you.
+
+Personal data removed:
+The software does not remove your personal data.
+
+You should observe certain basic rules regarding the file system. Mac OS X is a Unix-based operating system and has a well-defined structure. 
+Your data must be stored in your HOME directory, in the existing folders (for example, "Documents", "Pictures", "Music", and so on, or in additional folders that you have previously created in your HOME directory). 
+You should never store your documents or applications in folders that are subordinated to the operating system (for example, folders named "Library", "System", or in any of the subfolders of these folders). 
+
+Back up your data regularly.
+
+Problem with a hidden function:
+The software will not always be able to correct a function that has an undesirable behavior. 
+
+The functions were created by the developers of the System, the third party application or the operating system concerned. 
+The software merely turns those functions on or off, using a simple command, if one of those functions causes a problem, it will be fixed in an upgrade by the developers or the third party application developers or by the OS.
+
+Updates:
+You should always consider to update the software and your Operating System for security reasons. 
+The last versions generally correct at least some of the problems encountered in previous versions as well.
+
+Uninstall the software:
+If you no longer wish to use the application, you should backup your data and uninstall the application.
+
+Third Party Application:
+
+Third party applications are subject to their own licences and agreements, these include but are not limited to:
+
+Filemaker - Runtimes and Networking
+GNU Public Licences - Application, Development and Deployment
+Apple Inc - Operating System and Agreements
+Microsoft - Operating System and Agreements
+
+NOTE: By accepting these licence terms and conditions, you agree and consent to log your site and user details along with any information required for evidence including but not limited to date and time stamp. Furthermore, you consent not to infringe on any third party application used within this software. 

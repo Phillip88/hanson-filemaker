@@ -135,3 +135,88 @@ FMX_PROC(fmx::errcode) X24FT_Version(short funcId, const fmx::ExprEnv& environme
 
     return err;
 }
+
+#pragma mark HelloWorld
+FMX_PROC(fmx::errcode) HelloWorld(short funcId, const fmx::ExprEnv& environment, const fmx::DataVect& dataVect, fmx::Data& result)
+{
+#pragma unused(funcId,environment)
+	
+    fmx::errcode        err = 0;
+    FMX_Unichar         pluginName[256];
+    FMX_Unichar         pluginVersion[256];
+    fmx::TextAutoPtr    tempText;
+    fmx::TextAutoPtr    resultText;
+    
+    if( dataVect.Size() > 0 )
+    {
+        //We have at least one parameter. Read it and return correct information.
+        
+        const fmx::Text& parameter1 = dataVect.AtAsText(0);
+        
+        if( tempText->Assign(""), *tempText == parameter1 )
+        {
+            //If the parameter is null, then return Hello World
+            char *str;
+			str = "Hello World";
+			resultText->Assign(str);
+        }
+		
+	}
+	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
+	return err;
+}
+long GetAsciiFMText(const fmx::Text &fmTxt, char* &strBuf) { 
+	long intLen = fmTxt.GetSize(); 
+	strBuf = new char[intLen + 1];
+	fmTxt.GetBytes(strBuf, intLen + 1, 0, intLen); 
+	// GetBytes should already include the null terminator, but I'm adding 
+	// it again just in case. 
+	strBuf[intLen] = 0; 
+	return intLen; 
+}
+
+/*#pragma mark Plato_Sum
+FMX_PROC(fmx::errcode) Plato_Sum(short funcId, const fmx::ExprEnv& environment, const fmx::DataVect& dataVect, fmx::Data& result)
+{
+	
+#pragma unused(funcId,environment)
+    fmx::errcode        err = 0;
+    FMX_Unichar         pluginName[256];
+    FMX_Unichar         pluginVersion[256];
+	fmx::TextAutoPtr    tempA;
+	fmx::TextAutoPtr    tempB;
+	char * a;
+	char * b;
+    fmx::TextAutoPtr    resultText;
+	char *sum = "hello";
+    
+    if( dataVect.Size() > 0 )
+    {
+        //We have at least one parameter. Read it and return correct information.
+        
+        const fmx::Text& parameter1 = dataVect.AtAsText(0);
+		const fmx::Text& parameter2 = dataVect.AtAsText(1);
+		*tempA = parameter1;
+		*tempB = parameter2;
+		//convert to char
+		GetAsciiFMText(parameter1, a);
+		GetAsciiFMText(parameter2, b);
+		int x = 0;
+		int y = 0;
+		x = atol (a);
+		y = atol (b);
+		int total = x + y;
+#define BUF_SIZE 16
+		char buf[BUF_SIZE];
+		int value = total;
+		
+		snprintf(buf, BUF_SIZE, "%d", value);
+		
+		//convert to string
+		//sprintf(sum, "%d", total);
+	    resultText->Assign(buf);
+		
+	}
+	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
+	return err;
+}*/

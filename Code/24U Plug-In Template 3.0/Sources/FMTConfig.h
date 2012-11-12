@@ -76,7 +76,7 @@
 
 #define PLUGIN_INFO             "This plug-in extends FileMaker applications by adding external functions."
 
-#define COMPANY_NAME            "Your Company"
+#define COMPANY_NAME            "Enclave"
 #define COPY_STATEMENT          "Copyright ©2010 by " COMPANY_NAME
 
 #define WANT_IDLE               0           // set to 1 if you want idle-processing
@@ -163,15 +163,17 @@ enum {
 #define FUNCTION_1_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
 #define FUNCTION_1_PROTOTYPE      "X24FT_Version( { versionFormat } )"
 
-//#define FUNCTION_2_C_NAME         X24FT_Function2
-//#define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
-//#define FUNCTION_2_PARAMS         kAtLeast_0_Parameters, kAtWorst_Unlimited_Parameters
-//#define FUNCTION_2_PROTOTYPE      "X24FT_Function2( param1 ; ... )"
+#define FUNCTION_2_C_NAME         HelloWorld
+#define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+#define FUNCTION_2_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
+#define FUNCTION_2_PROTOTYPE      "Helloworld({ hello })"
 
-//#define FUNCTION_3_C_NAME         X24FT_Function3
-//#define FUNCTION_3_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
-//#define FUNCTION_3_PARAMS         kAtLeast_0_Parameters, kAtWorst_Unlimited_Parameters
-//#define FUNCTION_3_PROTOTYPE      "X24FT_Function3( param1 ; ... )"
+/*
+#define FUNCTION_3_C_NAME         Plato_Sum
+#define FUNCTION_3_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+#define FUNCTION_3_PARAMS         kAtLeast_0_Parameters, kAtLeast_2_Parameters
+#define FUNCTION_3_PROTOTYPE      "Plato_Sum( param1, param2 )"
+*/
 
 //#define FUNCTION_4_C_NAME         X24FT_Function4
 //#define FUNCTION_4_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
