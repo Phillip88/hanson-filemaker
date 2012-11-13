@@ -251,6 +251,10 @@
 				RelativePath="..\..\Sources\FMTConfig.h"
 				>
 			</File>
+			<File
+				RelativePath=".\MyFunction.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Support"

@@ -64,9 +64,14 @@
 //  contants up to contain accurate information about your plug-in.
 //
 
-#define PLUGIN_ID_STRING        "24FT"
+// Constant is a 4 characters long ID of your Plug-In
+// The ID must be unique for each Plug-In and must not begin with "F", "FM", or "Web" as these IDs are reserved by FileMaker, Inc
+// To make sure you will use a unique ID, you should register the ID as a creator code at the Apple Developer Technical Support 
+// web site even if you won't be creating a Mac OS X version of your Plug-In. To register IDs, go to the support pages on the 
+// Apple Computer web site at Apple Developer Connection and look for a link to Creator Type or Data Type Registration.
+#define PLUGIN_ID_STRING        "25PU"
 
-#define PLUGIN_NAME             "My Plug-In"
+#define PLUGIN_NAME             "Hanson Plug-In"
 #define PLUGIN_VERSION          "1.0"
 
 #define PLUGIN_VERSION_MAJOR		0x01
@@ -74,12 +79,23 @@
 #define PLUGIN_VERSION_BUILD		0x0
 
 
-#define PLUGIN_INFO             "This plug-in extends FileMaker applications by adding external functions."
+#define PLUGIN_INFO             "This plug-in aims License module in Hanson project."
 
 #define COMPANY_NAME            "Enclave"
-#define COPY_STATEMENT          "Copyright ©2010 by " COMPANY_NAME
+#define COPY_STATEMENT          "Copyright ©2012 by " COMPANY_NAME
 
+
+// Set the WANT_IDLE constant to 1 if you want FileMaker to call your Plug-In periodically in idle time to let 
+// it do any idle processing. If you set this constant to 1, your idle functions in the "FMPluginHandlers.cpp" 
+// file will be called periodically whenever the FileMaker application has nothing else to do. If you don't need 
+// any idle processing, set this constant to 0 so that you don't steal processing time from FileMaker.
 #define WANT_IDLE               0           // set to 1 if you want idle-processing
+
+
+// constant defines if your Plug-In should have the "Configure..." button enabled in 
+// the Plug-Ins panel of the FileMaker Application Preferences dialog box
+// If you set this constant to 1, the button will be enabled and after clicking on it, 
+// your Preferences() function in the "FMPluginHandlers.cpp" file will get called.
 #define WANT_PREFERENCES        0           // set to 1 if you want to handle preferences
 
 
@@ -92,7 +108,7 @@
 //  Define Mac OS X specific information for you plug-in below.
 //
 
-#define PLUGIN_BUNDLE_ID    "com.yourcompany.myplugin"
+#define PLUGIN_BUNDLE_ID    "vn.enclaveit.hanson.plugin"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -104,11 +120,12 @@
 //  Define Windows specific information for you plug-in below.
 //
 
-#define FILE_NAME_PC        "FMPlugin.fmx"  // A hint for user who accidentally renames your plug-in
+// A hint for user who accidentally renames your plug-in
+#define FILE_NAME_PC        "FMPlugin.fmx"  
 
 #define PLUGIN_INFO_PC      "This file is a FileMaker applications plug-in. To make this file effective, drop it into FileMaker's Extensions folder and launch the FileMaker application."
 
-#define COMPANY_URL         "http://www.yourcompany.com/"
+#define COMPANY_URL         "http://www.enclave.vn/"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -118,7 +135,7 @@
 /////////////////////////////////////////////////////////////////////////////
 //
 //  Do not modify the following enum, use the defined constants to configure
-//  minimum and maximum parameters required for each function
+//  MINIMUM and MAXIMUM parameters required for each function
 //  (the FUNCTION_X_PARAMS macros)
 //
 
@@ -156,17 +173,27 @@ enum {
 //  Define your external functions here. For each of your functions,
 //  uncomment the first commented block of defines, and set up the
 //  function's name, flags, parameters and prototype.
-//
+// 
+////////////////////////////////////////////////////////////////////////////
+
+// Function definitions
 
 #define FUNCTION_1_C_NAME         X24FT_Version
 #define FUNCTION_1_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
 #define FUNCTION_1_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
 #define FUNCTION_1_PROTOTYPE      "X24FT_Version( { versionFormat } )"
 
-#define FUNCTION_2_C_NAME         HelloWorld
-#define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+
+#define FUNCTION_2_C_NAME         MyFunction
+// This function vailable for both client and server-side calculations
+#define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | 
+								  fmx::ExprEnv::kDisplayInAllDialogs
+// This function is going to take TWO parameters, the first one being REQUIRED, 
+// and the second one OPTIONAL
 #define FUNCTION_2_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
-#define FUNCTION_2_PROTOTYPE      "Helloworld({ hello })"
+// #define FUNCTION_2_PROTOTYPE      "Helloworld({ hello })"
+#define FUNCTION_2_PROTOTYPE      "MyFunction(param1; { param2 } )"
+
 
 /*
 #define FUNCTION_3_C_NAME         Plato_Sum

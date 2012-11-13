@@ -136,35 +136,6 @@ FMX_PROC(fmx::errcode) X24FT_Version(short funcId, const fmx::ExprEnv& environme
     return err;
 }
 
-#pragma mark HelloWorld
-FMX_PROC(fmx::errcode) HelloWorld(short funcId, const fmx::ExprEnv& environment, const fmx::DataVect& dataVect, fmx::Data& result)
-{
-#pragma unused(funcId,environment)
-	
-    fmx::errcode        err = 0;
-    FMX_Unichar         pluginName[256];
-    FMX_Unichar         pluginVersion[256];
-    fmx::TextAutoPtr    tempText;
-    fmx::TextAutoPtr    resultText;
-    
-    if( dataVect.Size() > 0 )
-    {
-        //We have at least one parameter. Read it and return correct information.
-        
-        const fmx::Text& parameter1 = dataVect.AtAsText(0);
-        
-        if( tempText->Assign(""), *tempText == parameter1 )
-        {
-            //If the parameter is null, then return Hello World
-            char *str;
-			str = "Hello World";
-			resultText->Assign(str);
-        }
-		
-	}
-	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
-	return err;
-}
 long GetAsciiFMText(const fmx::Text &fmTxt, char* &strBuf) { 
 	long intLen = fmTxt.GetSize(); 
 	strBuf = new char[intLen + 1];
