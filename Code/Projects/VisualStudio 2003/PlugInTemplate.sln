@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FMPlugin", "PlugInTemplate.vcproj", "{4182C2DB-FD86-4886-BC73-DA9CA303B509}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HansonPlugin", "PlugInTemplate.vcproj", "{4182C2DB-FD86-4886-BC73-DA9CA303B509}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "..\Test\Test.vcproj", "{DB9A3A92-3593-4C6E-AF45-BB9C2CF50305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,6 +14,10 @@ Global
 		{4182C2DB-FD86-4886-BC73-DA9CA303B509}.Debug|Win32.Build.0 = Debug|Win32
 		{4182C2DB-FD86-4886-BC73-DA9CA303B509}.Release|Win32.ActiveCfg = Release|Win32
 		{4182C2DB-FD86-4886-BC73-DA9CA303B509}.Release|Win32.Build.0 = Release|Win32
+		{DB9A3A92-3593-4C6E-AF45-BB9C2CF50305}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB9A3A92-3593-4C6E-AF45-BB9C2CF50305}.Debug|Win32.Build.0 = Debug|Win32
+		{DB9A3A92-3593-4C6E-AF45-BB9C2CF50305}.Release|Win32.ActiveCfg = Release|Win32
+		{DB9A3A92-3593-4C6E-AF45-BB9C2CF50305}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

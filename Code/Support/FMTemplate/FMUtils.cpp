@@ -195,3 +195,13 @@ fmx::errcode UnRegisterExternalFunction( FMX_UShort iFunctionID )
 
     return fmx::ExprEnv::UnRegisterExternalFunction( *pluginID, iFunctionID );
 }
+
+long GetAsciiFMText(const fmx::Text &fmTxt, char* &strBuf) { 
+	long intLen = fmTxt.GetSize(); 
+	strBuf = new char[intLen + 1];
+	fmTxt.GetBytes(strBuf, intLen + 1, 0, intLen); 
+	// GetBytes should already include the null terminator, but I'm adding 
+	// it again just in case. 
+	strBuf[intLen] = 0; 
+	return intLen; 
+}

@@ -18,3 +18,5 @@ License management tool example.
 +Engagent Software License Management 
 +Software License Tracker (http://www.softmart.com/solutions/microsoft-solutions-center/software-license-tracker.asp)
 +Quick License Manager Agent
+
+http://sixfriedrice.com/wp/filemaker-9-tip1-hiding-something-on-the-layout/

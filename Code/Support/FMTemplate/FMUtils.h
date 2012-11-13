@@ -50,6 +50,9 @@
     extern "C" {
   #endif
 
+#pragma mark GetAsciiFMText
+	long GetAsciiFMText(const fmx::Text &fmTxt, char* &strBuf);
+
 #pragma mark ReadString
 
 ////////////////////////////////////////////////////////////////////////////////
