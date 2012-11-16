@@ -1,0 +1,47 @@
+/* -------------------------------------------------------------------------------------------------
+This file is part of the Nbbf Copy Protection Library (Nbbf)
+ 
+Nbbf is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+ 
+Nbbf is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Lesser Public License for more details.
+ 
+You should have received a copy of the GNU Lesser Public License
+along with Nbbf.  If not, see <http://www.gnu.org/licenses/>.
+------------------------------------------------------------------------------------------------- */
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(77711067-7683-4A37-B239-67289449CD7D),
+	dual,
+	nonextensible,
+	helpstring("ICreate Interface"),
+	pointer_default(unique)
+]
+interface ICreate : IDispatch{
+	[id(1), helpstring("method Create")] HRESULT Create([in] LONG lID1, [in] LONG lID2, [in] LONG lID3, [out,retval] BSTR * pbstrKey);
+};
+[
+	uuid(414E0740-231C-4B5A-B856-CFE47C1196CC),
+	version(1.0),
+	helpstring("NbbfC 1.0 Type Library")
+]
+library NbbfCLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(668B80D2-A842-4065-9AB1-9AF4BDC18C1A),
+		helpstring("Create Class")
+	]
+	coclass Create
+	{
+		[default] interface ICreate;
+	};
+};

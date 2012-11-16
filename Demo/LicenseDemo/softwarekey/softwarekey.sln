@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "protected_comp", "protected_comp\protected_comp.vcproj", "{A19D9952-4143-4E7C-965E-8C00CB573FC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "softwarekey_customertool", "softwarekey_customertool\softwarekey_customertool.vcproj", "{1E7CC5E3-B0E0-4BAA-9966-416764775448}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "softwarekey_vendortool", "softwarekey_vendortool\softwarekey_vendortool.vcproj", "{26EDE015-AECF-49EE-A889-A3B344D9B594}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A19D9952-4143-4E7C-965E-8C00CB573FC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A19D9952-4143-4E7C-965E-8C00CB573FC2}.Debug|Win32.Build.0 = Debug|Win32
+		{A19D9952-4143-4E7C-965E-8C00CB573FC2}.Release|Win32.ActiveCfg = Release|Win32
+		{A19D9952-4143-4E7C-965E-8C00CB573FC2}.Release|Win32.Build.0 = Release|Win32
+		{1E7CC5E3-B0E0-4BAA-9966-416764775448}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E7CC5E3-B0E0-4BAA-9966-416764775448}.Debug|Win32.Build.0 = Debug|Win32
+		{1E7CC5E3-B0E0-4BAA-9966-416764775448}.Release|Win32.ActiveCfg = Release|Win32
+		{1E7CC5E3-B0E0-4BAA-9966-416764775448}.Release|Win32.Build.0 = Release|Win32
+		{26EDE015-AECF-49EE-A889-A3B344D9B594}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26EDE015-AECF-49EE-A889-A3B344D9B594}.Debug|Win32.Build.0 = Debug|Win32
+		{26EDE015-AECF-49EE-A889-A3B344D9B594}.Release|Win32.ActiveCfg = Release|Win32
+		{26EDE015-AECF-49EE-A889-A3B344D9B594}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

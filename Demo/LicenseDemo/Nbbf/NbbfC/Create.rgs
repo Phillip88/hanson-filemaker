@@ -1,0 +1,26 @@
+HKCR
+{
+	NbbfC.Create.1 = s 'Create Class'
+	{
+		CLSID = s '{668B80D2-A842-4065-9AB1-9AF4BDC18C1A}'
+	}
+	NbbfC.Create = s 'Create Class'
+	{
+		CLSID = s '{668B80D2-A842-4065-9AB1-9AF4BDC18C1A}'
+		CurVer = s 'NbbfC.Create.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {668B80D2-A842-4065-9AB1-9AF4BDC18C1A} = s 'Create Class'
+		{
+			ProgID = s 'NbbfC.Create.1'
+			VersionIndependentProgID = s 'NbbfC.Create'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{414E0740-231C-4B5A-B856-CFE47C1196CC}'
+		}
+	}
+}

@@ -1,0 +1,10 @@
+; NbbfV.def : Declares the module parameters.
+
+LIBRARY      "NbbfV.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE

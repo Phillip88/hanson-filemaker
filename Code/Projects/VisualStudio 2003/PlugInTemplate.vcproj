@@ -43,7 +43,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(ProjectDir)..\..\Sources&quot;;&quot;$(ProjectDir)..\..\Support&quot;;&quot;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers&quot;"
+				AdditionalIncludeDirectories="&quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\cryptopp560&quot;;&quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\Utils&quot;;&quot;$(ProjectDir)..\..\Sources&quot;;&quot;$(ProjectDir)..\..\Support&quot;;&quot;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;FMTEMPLATE21_EXPORTS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -53,7 +53,7 @@
 				PrecompiledHeaderFile=""
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="false"
-				DebugInformationFormat="3"
+				DebugInformationFormat="4"
 				DisableSpecificWarnings="4068"
 				ForcedIncludeFiles="$(ProjectDir)..\..\Support\VisualStudio\stdafx.h"
 			/>
@@ -70,6 +70,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalOptions="&quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\lib\Debug\Utils.lib&quot;  &quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\lib\Debug\cryptlib.lib&quot;"
 				OutputFile="$(OutDir)/HansonPlugin.fmx"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
@@ -257,6 +258,10 @@
 			</File>
 			<File
 				RelativePath="..\..\Sources\MyMission.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Sources\resource.h"
 				>
 			</File>
 		</Filter>

@@ -1,0 +1,26 @@
+HKCR
+{
+	NbbfV.Validate.1 = s 'Validate Class'
+	{
+		CLSID = s '{2C28A940-7DE9-4900-94DE-0E94CD41CB07}'
+	}
+	NbbfV.Validate = s 'Validate Class'
+	{
+		CLSID = s '{2C28A940-7DE9-4900-94DE-0E94CD41CB07}'
+		CurVer = s 'NbbfV.Validate.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {2C28A940-7DE9-4900-94DE-0E94CD41CB07} = s 'Validate Class'
+		{
+			ProgID = s 'NbbfV.Validate.1'
+			VersionIndependentProgID = s 'NbbfV.Validate'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{58F50F3D-F9EA-48F4-A1EA-99EB6CDD0946}'
+		}
+	}
+}

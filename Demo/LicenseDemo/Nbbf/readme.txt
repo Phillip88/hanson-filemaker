@@ -1,0 +1,1 @@
+If you are downloading the source code to the test application only, you need to register the 2 COM libraries before the program will run.  These reside in the Test\Bin\Debug directory with the names NbbfC.dll and NbbfV.dll .

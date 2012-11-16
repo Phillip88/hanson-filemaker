@@ -20,3 +20,14 @@ License management tool example.
 +Quick License Manager Agent
 
 http://sixfriedrice.com/wp/filemaker-9-tip1-hiding-something-on-the-layout/
+
+For this reason, asymmetric cryptology is the way to go. The basic premise is something like this:
+
+When the user purchases a license from you, you collect certain identifying details about the user and/or their environment (typically, this is just a full name; sometimes a company, too).
+You make a 128-bit MD5 hash of this information.
+Using a 128-bit Elliptic Curve crypto, encrypt this hash using the private key on the server.
+The 128-bit cipher text can be represented to the user as a 25-character string consisting of letters and digits (plus separating dashes for readability). Notice that 26 letters + 10 digits = 36 discreet values, and that 36^25 > 2^128.
+The user types this product key into your registration dialog. The client software converts it back to a 128-bit number (16 bytes), decrypts that using the public key of your EC crypto, and compares the result to an MD5 hash of the user's personal information, which must match what was used for registration.
+
+
+Crypto++® Library 5.6.1

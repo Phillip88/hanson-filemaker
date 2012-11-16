@@ -1,0 +1,38 @@
+// NbbfV.idl : IDL source for NbbfV
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (NbbfV.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(1C26E898-E486-4C46-BA1C-DC82C374B8F6),
+	dual,
+	nonextensible,
+	helpstring("IValidate Interface"),
+	pointer_default(unique)
+]
+interface IValidate : IDispatch{
+	[id(1), helpstring("method Validate")] HRESULT Validate([in] LONG lID1, [in] LONG lID2, [in] LONG lID3, [out,retval] VARIANT_BOOL* bValid);
+	[id(2), helpstring("method Elapsed")] HRESULT Elapsed([in] LONG lID1, [in] LONG lID2, [out,retval] LONG* plElapsed);
+};
+[
+	uuid(58F50F3D-F9EA-48F4-A1EA-99EB6CDD0946),
+	version(1.0),
+	helpstring("NbbfV 1.0 Type Library")
+]
+library NbbfVLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(2C28A940-7DE9-4900-94DE-0E94CD41CB07),
+		helpstring("Validate Class")
+	]
+	coclass Validate
+	{
+		[default] interface IValidate;
+	};
+};
