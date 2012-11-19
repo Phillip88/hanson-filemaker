@@ -6,7 +6,7 @@
 #include <iostream>
 #include "resource.h"
 
-int main()
+int main1()
 {
     std::string publicKey;
     std::string privateKey;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9,00"
+	Version="9.00"
 	Name="DigitalSignature"
 	ProjectGUID="{87E30E20-F7F0-4036-BFC2-ED8C81EBAC3B}"
 	RootNamespace="DigitalSignatureTest"
@@ -175,6 +175,10 @@
 			>
 			<File
 				RelativePath=".\main.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\test.cpp"
 				>
 			</File>
 		</Filter>
