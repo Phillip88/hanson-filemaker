@@ -45,7 +45,7 @@
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
-				RuntimeLibrary="3"
+				RuntimeLibrary="1"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
 				DebugInformationFormat="4"
@@ -61,9 +61,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="&quot;C:\Users\enclaveit\Desktop\Hanson\TutVisualC++\Tutorial\Tutorial\lib\cryptlib.lib&quot;"
+				AdditionalDependencies="cryptlib.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories=""
+				AdditionalLibraryDirectories="&quot;..\cryptopp561\win32\output\debug&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -176,11 +176,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\Tut1.cpp"
+				RelativePath=".\Main.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\Tut2.cpp"
+				RelativePath=".\MyHash.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MyRSA.cpp"
 				>
 			</File>
 		</Filter>
@@ -189,6 +193,14 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\MyHash.h"
+				>
+			</File>
+			<File
+				RelativePath=".\MyRSA.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
