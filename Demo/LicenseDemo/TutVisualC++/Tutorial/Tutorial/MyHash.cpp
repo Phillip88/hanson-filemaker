@@ -21,8 +21,10 @@ namespace hash {
 							(byte const*) strData.data(),
 							strData.size());
 	  
-		cout << hashAlgorithmName << " Single-Step: ";
-		HexEncoder(new FileSink(cout)).Put(sbbDigest.begin(), sbbDigest.size());
+		string hashValue;
+		HexEncoder(new StringSink(hashValue)).Put(sbbDigest.begin(), sbbDigest.size());
+
+		cout << hashAlgorithmName << " Single-Step: " << hashValue;
 		cout << endl;
 	} // end DumpHash_SingleStep
 

@@ -1,5 +1,6 @@
 #include "MyHash.h"
-#include "MyRSA.h"
+#include "MyRSA.h" // <-cause here
+
 
 // Crypto++
 #include "sha.h"        // SHA-1, SHA-256, SHA-384, SHA-512
@@ -41,12 +42,16 @@ void hashTest()
     }
 } // end hashTest()
 
+
+
+//#include "Utils.h"
 /**
 * For RSA implemention test.
 */
 void rsaTest()
 {
 	using namespace rsa;
+	using namespace utils;
 
 	cout << "How to implement RSA using cryptoC++ lib" << "\n\n";
 
@@ -56,6 +61,14 @@ void rsaTest()
 	RsaGenerateStringKeys(publicKey, privateKey);
 	cout << "Public key : " << publicKey << endl
 		 << "Private key: " << privateKey << endl;
+	
+	// convert string value to vector, then save to file.
+	std::vector<char> vecPublic(publicKey.begin(), publicKey.end());
+	std::vector<char> vecPrivate(privateKey.begin(), privateKey.end());
+
+	SaveVectorToFile(L"C:\\public.bin", vecPublic);
+	SaveVectorToFile(L"C:\\private.bin", vecPrivate);
+	cout << "Public key and private key has been saved at disk C" << endl;
 }
 
 int main()
