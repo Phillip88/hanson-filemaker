@@ -43,7 +43,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\cryptopp560&quot;;&quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\Utils&quot;;&quot;$(ProjectDir)..\..\Sources&quot;;&quot;$(ProjectDir)..\..\Support&quot;;&quot;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers&quot;"
+				AdditionalIncludeDirectories="..\cryptopp560;&quot;$(ProjectDir)..\..\Sources&quot;;&quot;$(ProjectDir)..\..\Support&quot;;&quot;$(ProjectDir)..\..\Support\FMPlugInSDK\Headers&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;FMTEMPLATE21_EXPORTS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -70,9 +70,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalOptions="&quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\lib\Debug\Utils.lib&quot;  &quot;d:\Programming\Project\Hanson\hanson-filemaker\Code\Projects\lib\Debug\cryptlib.lib&quot;"
+				AdditionalDependencies="cryptlib.lib"
 				OutputFile="$(OutDir)/HansonPlugin.fmx"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;..\lib\Debug&quot;"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(IntDir)/FMPluginDebug.pdb"
 				SubSystem="2"
@@ -262,6 +263,14 @@
 			</File>
 			<File
 				RelativePath="..\..\Sources\resource.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Sources\Utils.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\Sources\Utils.h"
 				>
 			</File>
 		</Filter>

@@ -5,6 +5,8 @@ using namespace CryptoPP;
 
 namespace hash {
 
+	void formatStringWithHiphen(string &inp);
+
 	/**
 	* The whole hashing operation can be completed in one step.
 	*/
@@ -15,7 +17,7 @@ namespace hash {
 		// Cannot use std::string for buffer;
 		// its internal storage might not be contiguous
 		SecByteBlock sbbDigest(hash.DigestSize());
-	  
+
 		// sbbDigest now contains the hash of strData.
 		hash.CalculateDigest(sbbDigest.begin(),
 							(byte const*) strData.data(),
@@ -23,7 +25,7 @@ namespace hash {
 	  
 		string hashValue;
 		HexEncoder(new StringSink(hashValue)).Put(sbbDigest.begin(), sbbDigest.size());
-
+		formatStringWithHiphen(hashValue);
 		cout << hashAlgorithmName << " Single-Step: " << hashValue;
 		cout << endl;
 	} // end DumpHash_SingleStep
@@ -89,5 +91,19 @@ namespace hash {
 		DumpHash_SingleStep(hash, hashAlgorithmName, strDataPart1 + strDataPart2 + strDataPart3);
 		DumpHash_MultiStep(hash, hashAlgorithmName, strDataPart1, strDataPart2, strDataPart3);
 		DumpHash_HashFilter(hash, hashAlgorithmName, strDataPart1, strDataPart2, strDataPart3);
+	}
+
+
+	/**
+	* Insert hyphen into string
+	* ex : ASAFS12SDA23GFQ --> ASAFS-12SDA-23GFQ
+	*/
+	void formatStringWithHiphen(string &inp)
+	{
+		int i;
+		for(i=5; i<inp.length(); i+=6)
+		{
+			inp.insert(i, "-");
+		}
 	}
 }
