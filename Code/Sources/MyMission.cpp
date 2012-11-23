@@ -31,31 +31,34 @@ FMX_PROC(fmx::errcode) GenerateProductKey(short          funcId,
 {
 	#pragma unused(funcId,environment)
 
+	using namespace fmx;
+	using namespace std;
+	using namespace CryptoPP;
+
 	fmx::errcode        err = 0;
     FMX_Unichar         pluginName[256];
     FMX_Unichar         pluginVersion[256];
-    fmx::TextAutoPtr    tempText;
-    fmx::TextAutoPtr    resultText;
+    TextAutoPtr    tempText;
+    TextAutoPtr    resultText;
 
-	using namespace std;
-	using namespace CryptoPP;
-    
-    if( dataVect.Size() > 0 )
+    if( dataVect.Size() == 2 )
     {
         //We have at least one parameter. Read it and return correct information.
-		char *paramAsChar;
-        const fmx::Text& param = dataVect.AtAsText(0);
-		GetAsciiFMText(param, paramAsChar);
-		string paramAsStr(paramAsChar);
+		char *param1AsChar, *param2AsChar;
+        //const Text& param = dataVect.AtAsText(0);
+		GetAsciiFMText(dataVect.AtAsText(0), param1AsChar);
+		GetAsciiFMText(dataVect.AtAsText(1), param2AsChar);
+		string param1AsStr(param1AsChar);
+		string param2AsStr(param2AsChar);
 
 		//HashTransformation hash;
-		CryptoPP::RIPEMD160 hash;
+		RIPEMD160 hash;
 		SecByteBlock sbbDigest(hash.DigestSize());
 
 		// sbbDigest now contains the hash of strData.
 		hash.CalculateDigest(sbbDigest.begin(),
-							(byte const*) paramAsStr.data(),
-							 paramAsStr.size());
+							(byte const*) (param1AsStr+param2AsStr).data(),
+							(param1AsStr+param2AsStr).size());
 	  
 		string hashValue;
 		HexEncoder(new StringSink(hashValue)).Put(sbbDigest.begin(), sbbDigest.size());

@@ -31,3 +31,8 @@ The user types this product key into your registration dialog. The client softwa
 
 
 Crypto++® Library 5.6.1
+
+
+http://www.nightwing.com.au/FileMaker/demos.html
+
+http://www.newleafdata.com/downloads.php
