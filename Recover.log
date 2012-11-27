@@ -2,3 +2,9 @@
 2012-11-27 11:00:13.241 +0700	Setup.fmp12	0	*** Started consistency check of improperly closed file, total of 110 block(s) to check
 2012-11-27 11:00:13.250 +0700	Setup.fmp12	0	Reset maximum block sequence number to 86491
 2012-11-27 11:00:13.258 +0700	Setup.fmp12	0	*** Completed consistency check, checked 110 block(s)
+2012-11-27 15:16:04.392 +0700	Setup.fmp12	0	*** Started consistency check of improperly closed file, total of 174 block(s) to check
+2012-11-27 15:16:04.416 +0700	Setup.fmp12	0	Reset maximum block sequence number to 135799
+2012-11-27 15:16:04.424 +0700	Setup.fmp12	0	*** Completed consistency check, checked 174 block(s)
+2012-11-27 15:19:37.781 +0700	Setup.fmp12	0	*** Started consistency check of improperly closed file, total of 174 block(s) to check
+2012-11-27 15:19:37.807 +0700	Setup.fmp12	0	Reset maximum block sequence number to 135830
+2012-11-27 15:19:37.815 +0700	Setup.fmp12	0	*** Completed consistency check, checked 174 block(s)

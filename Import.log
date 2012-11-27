@@ -55,3 +55,67 @@
 2012-12-05 17:15:25.696 +0700	Setup.fmp12	0	Import of script steps from clipboard started
 2012-12-05 17:15:25.716 +0700	check_Trial_Expired	0	script steps imported : 1
 2012-12-05 17:15:25.726 +0700	Setup.fmp12	0	Import completed
+2012-12-06 08:51:39.151 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 08:51:39.177 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 08:51:39.184 +0700	Setup.fmp12	0	Import completed
+2012-12-06 08:52:34.022 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 08:52:34.044 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 08:52:34.051 +0700	Setup.fmp12	0	Import completed
+2012-12-06 08:53:20.358 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 08:53:20.387 +0700	check_Trial_Expired	0	script steps imported : 2
+2012-12-06 08:53:20.393 +0700	Setup.fmp12	0	Import completed
+2012-12-06 08:55:20.442 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 08:55:20.470 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 08:55:20.477 +0700	Setup.fmp12	0	Import completed
+2012-12-06 08:56:34.083 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 08:56:34.092 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 08:56:34.100 +0700	Setup.fmp12	0	Import completed
+2012-12-06 08:58:52.263 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 08:58:52.288 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 08:58:52.296 +0700	Setup.fmp12	0	Import completed
+2012-12-06 09:46:29.874 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 09:46:29.900 +0700	OnFileOpen::3::Go to Layout	105	Layout “-splash-” missing.
+2012-12-06 09:46:29.915 +0700	OnFileOpen	0	script steps imported : 22
+2012-12-06 09:46:29.940 +0700	Setup.fmp12	0	Import completed
+2012-12-06 09:54:13.235 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 09:54:13.255 +0700	OnFileOpen	0	script steps imported : 1
+2012-12-06 09:54:13.262 +0700	Setup.fmp12	0	Import completed
+2012-12-06 10:24:46.167 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 10:24:46.169 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 10:24:46.177 +0700	Setup.fmp12	0	Import completed
+2012-12-06 10:54:58.960 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 10:54:58.987 +0700	PopupWindow::7::Perform Script	104	Script “Utl - newWin CurrentInfo” missing.
+2012-12-06 10:54:59.017 +0700	PopupWindow::15::Perform Script	104	Script “Utl - StatusArea ( StatusAreaState )” missing.
+2012-12-06 10:54:59.046 +0700	PopupWindow::16::Perform Script	104	Script “Utl - AdjustWindow StatusDetect - Resize to fit” missing.
+2012-12-06 10:54:59.056 +0700	PopupWindow::19::Perform Script	104	Script “Utl - newWin Position ( position , curWinInfo )” missing.
+2012-12-06 10:54:59.064 +0700	PopupWindow::22::Perform Script	104	Script “Utl - newWin MoveWindow ( position , technique , direction )” missing.
+2012-12-06 10:54:59.071 +0700	PopupWindow	0	script steps imported : 22
+2012-12-06 10:54:59.079 +0700	Setup.fmp12	0	Import completed
+2012-12-06 10:56:55.719 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 10:56:55.747 +0700	New Script	0	script steps imported : 2
+2012-12-06 10:56:55.753 +0700	Setup.fmp12	0	Import completed
+2012-12-06 10:59:34.094 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 10:59:34.123 +0700	StatusArea ( StatusAreaState )	0	script steps imported : 11
+2012-12-06 10:59:34.152 +0700	Setup.fmp12	0	Import completed
+2012-12-06 11:00:58.334 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 11:00:58.380 +0700	AdjustWindow StatusDetect - Resize to fit	0	script steps imported : 8
+2012-12-06 11:00:58.407 +0700	Setup.fmp12	0	Import completed
+2012-12-06 11:02:33.090 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 11:02:33.133 +0700	newWin Position ( position , curWinInfo )	0	script steps imported : 27
+2012-12-06 11:02:33.165 +0700	Setup.fmp12	0	Import completed
+2012-12-06 11:02:37.972 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 11:02:38.002 +0700	newWin Position ( position , curWinInfo )	0	script steps imported : 27
+2012-12-06 11:02:38.041 +0700	Setup.fmp12	0	Import completed
+2012-12-06 11:04:31.970 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 11:04:31.987 +0700	newWin MoveWindow ( position , technique , direction )::13::Set Variable	106	Table referred to in the calculation “/*- Slow = 15- Normal = 30- Fast = 50*/Case(Example::gSpeed = "Slow"; 15;Example::gSpeed = "Normal"; 30;Example::gSpeed = "Fast"; 50)” is missing.
+2012-12-06 11:04:32.030 +0700	newWin MoveWindow ( position , technique , direction )::32::Perform Script	104	Script “Utl - RefreshWindow” missing.
+2012-12-06 11:04:32.110 +0700	newWin MoveWindow ( position , technique , direction )::48::Perform Script	104	Script “Utl - RefreshWindow” missing.
+2012-12-06 11:04:32.142 +0700	newWin MoveWindow ( position , technique , direction )::58::Perform Script	104	Script “Utl - RefreshWindow” missing.
+2012-12-06 11:04:32.170 +0700	newWin MoveWindow ( position , technique , direction )	0	script steps imported : 61
+2012-12-06 11:04:32.178 +0700	Setup.fmp12	0	Import completed
+2012-12-06 11:05:46.975 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 11:05:47.005 +0700	RefreshWindow	0	script steps imported : 3
+2012-12-06 11:05:47.021 +0700	Setup.fmp12	0	Import completed
+2012-12-06 11:11:38.147 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-06 11:11:38.170 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-06 11:11:38.178 +0700	Setup.fmp12	0	Import completed
