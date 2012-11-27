@@ -193,6 +193,7 @@ enum {
 // #define FUNCTION_2_PROTOTYPE      "Helloworld({ hello })"
 #define FUNCTION_2_PROTOTYPE      "MyFunction(param1; { param2 } )"
 
+/*
 #define FUNCTION_2_C_NAME         GenerateProductKey
 // This function vailable for both client and server-side calculations
 #define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
@@ -200,7 +201,7 @@ enum {
 // and the second one OPTIONAL
 #define FUNCTION_2_PARAMS         kAtLeast_0_Parameters, kAtLeast_2_Parameters
 #define FUNCTION_2_PROTOTYPE      "GenerateProductKey(param1; param2 )"
-
+*/
 /*
 #define FUNCTION_3_C_NAME         Plato_Sum
 #define FUNCTION_3_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
