@@ -73,9 +73,7 @@ namespace hash {
 		hashFilter.MessageEnd();
 
 		cout << hashAlgorithmName << " HashFilter:  ";
-		StringSource(strDigest, true,
-		  new HexEncoder(
-			  new FileSink(cout)));
+		StringSource(strDigest, true, new HexEncoder(new FileSink(cout)));
 		cout << endl;
 	 }
 
