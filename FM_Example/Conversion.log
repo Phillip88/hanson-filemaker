@@ -1,0 +1,87 @@
+﻿Timestamp	Filename	Error	Message
+2012-11-29 11:15:10.537 +0700	WindowMgmt_Demo.fp7	0	Conversion started.
+2012-11-29 11:15:10.597 +0700	WindowMgmt_Demo.fp7	0	Product version: '10.0', File Format version: '7'
+2012-11-29 11:15:10.608 +0700	WindowMgmt_Demo.fmp12	0	Copying source file to destination
+2012-11-29 11:15:10.797 +0700	WindowMgmt_Demo.fmp12	0	Updating old file Headers/Creator/FileType
+2012-11-29 11:15:10.961 +0700	WindowMgmt_Demo.fmp12	0	Updating catalogs with newer encoding
+2012-11-29 11:15:10.995 +0700	WindowMgmt_Demo.fmp12	0	Recovering: table catalog
+2012-11-29 11:15:11.021 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding table catalog order list: name 
+2012-11-29 11:15:11.030 +0700	WindowMgmt_Demo.fmp12	0	Recovering: table alias catalog
+2012-11-29 11:15:11.038 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding table alias catalog order list: name 
+2012-11-29 11:15:11.046 +0700	WindowMgmt_Demo.fmp12	0	Recovering: user account catalog
+2012-11-29 11:15:11.054 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding user account catalog order list: name 
+2012-11-29 11:15:11.063 +0700	WindowMgmt_Demo.fmp12	0	Recovering: privilege set catalog
+2012-11-29 11:15:11.071 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding privilege set catalog order list: name 
+2012-11-29 11:15:11.080 +0700	WindowMgmt_Demo.fmp12	0	Recovering: extended privileges catalog
+2012-11-29 11:15:11.088 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding extended privileges catalog order list: name 
+2012-11-29 11:15:11.097 +0700	WindowMgmt_Demo.fmp12	0	Recovering: value list catalog
+2012-11-29 11:15:11.105 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding value list catalog order list: name 
+2012-11-29 11:15:11.113 +0700	WindowMgmt_Demo.fmp12	0	Recovering: font catalog
+2012-11-29 11:15:11.121 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding font catalog order list: name 
+2012-11-29 11:15:11.130 +0700	WindowMgmt_Demo.fmp12	0	Recovering: field catalog 'Example'
+2012-11-29 11:15:11.138 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding field catalog 'Example' order list: name 
+2012-11-29 11:15:11.149 +0700	WindowMgmt_Demo.fmp12	0	Recovering: field catalog 'Names'
+2012-11-29 11:15:11.155 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding field catalog 'Names' order list: name 
+2012-11-29 11:15:11.310 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilt value index for field 'NameFirst'; 1285 item(s) now exist, difference from old index is 0
+2012-11-29 11:15:11.334 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilt word index for field 'NameFirst'; 1263 item(s) now exist, difference from old index is 0
+2012-11-29 11:15:11.343 +0700	WindowMgmt_Demo.fmp12	0	Recovering: layout catalog
+2012-11-29 11:15:11.354 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding layout catalog order list: name 
+2012-11-29 11:15:11.383 +0700	WindowMgmt_Demo.fmp12	0	Recovering: script catalog
+2012-11-29 11:15:11.390 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding script catalog order list: name 
+2012-11-29 11:15:11.401 +0700	WindowMgmt_Demo.fmp12	0	Recovering: custom menu set catalog
+2012-11-29 11:15:11.407 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding custom menu set catalog order list: name 
+2012-11-29 11:15:11.416 +0700	WindowMgmt_Demo.fmp12	0	Recovering: custom menu catalog
+2012-11-29 11:15:11.424 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding custom menu catalog order list: name 
+2012-11-29 11:15:11.436 +0700	WindowMgmt_Demo.fmp12	0	Updating script catalog checksums
+2012-11-29 11:15:11.466 +0700	WindowMgmt_Demo.fmp12	0	Recovering: script catalog
+2012-11-29 11:15:11.498 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding script catalog order list: quick reference 
+2012-11-29 11:15:11.533 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding script catalog order list: name 
+2012-11-29 11:15:11.565 +0700	WindowMgmt_Demo.fmp12	0	  Rebuilding script catalog order list: custom 
+2012-11-29 11:15:11.597 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Start Screen' (8)
+2012-11-29 11:15:11.604 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Close Screen' (9)
+2012-11-29 11:15:11.612 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Demo 1' (10)
+2012-11-29 11:15:11.621 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '-' (11)
+2012-11-29 11:15:11.629 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '-' (16)
+2012-11-29 11:15:11.638 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - OS SizeAdjust' (30)
+2012-11-29 11:15:11.646 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - AdjustWindow StatusOff - Resize to fit' (33)
+2012-11-29 11:15:11.655 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - newWin Position ( position , curWinInfo )' (34)
+2012-11-29 11:15:11.663 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow ( layout , position , {window name, hide status})' (35)
+2012-11-29 11:15:11.673 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - newWin MoveWindow ( position , technique , direction )' (36)
+2012-11-29 11:15:11.679 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - newWin CurrentInfo' (38)
+2012-11-29 11:15:11.687 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'New Window' (39)
+2012-11-29 11:15:11.696 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '--' (40)
+2012-11-29 11:15:11.704 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - AdjustWindow StatusOn - Resize to fit' (43)
+2012-11-29 11:15:11.712 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '-' (44)
+2012-11-29 11:15:11.721 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'StartUpStuff' (45)
+2012-11-29 11:15:11.729 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '--' (46)
+2012-11-29 11:15:11.737 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '-' (47)
+2012-11-29 11:15:11.746 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'MoveWindow ( window name , position )' (48)
+2012-11-29 11:15:11.754 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - RefreshWindow' (53)
+2012-11-29 11:15:11.763 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utility' (54)
+2012-11-29 11:15:11.771 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '--' (55)
+2012-11-29 11:15:11.780 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - moveWin CurrentInfo' (56)
+2012-11-29 11:15:11.788 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'GTRR Names' (57)
+2012-11-29 11:15:11.796 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - AdjustWindow StatusDetect - Resize to fit' (58)
+2012-11-29 11:15:11.804 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Demo 2' (59)
+2012-11-29 11:15:11.813 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Demo 3' (60)
+2012-11-29 11:15:11.821 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Utl - StatusArea ( StatusAreaState )' (61)
+2012-11-29 11:15:11.829 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Demo 4' (62)
+2012-11-29 11:15:11.839 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Slide Left' (63)
+2012-11-29 11:15:11.846 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'Demo Only' (64)
+2012-11-29 11:15:11.854 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script '--' (65)
+2012-11-29 11:15:11.863 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Grow Center' (66)
+2012-11-29 11:15:11.872 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Slide Right' (67)
+2012-11-29 11:15:11.880 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Grow TopLeft' (68)
+2012-11-29 11:15:11.888 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Demo 5' (69)
+2012-11-29 11:15:11.896 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Slow' (70)
+2012-11-29 11:15:11.905 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Normal' (71)
+2012-11-29 11:15:11.913 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'NewWindow - Fast' (72)
+2012-11-29 11:15:11.922 +0700	WindowMgmt_Demo.fmp12	0	  Recovering: script 'To Next Example' (73)
+2012-11-29 11:15:12.144 +0700	WindowMgmt_Demo.fmp12	0	14 layouts were converted.
+2012-11-29 11:15:12.189 +0700	WindowMgmt_Demo.fmp12	0	Updating old layout symbols
+2012-11-29 11:15:12.373 +0700	WindowMgmt_Demo.fmp12	0	Updating old .FP7 file references to .FMP12
+2012-11-29 11:15:12.399 +0700	WindowMgmt_Demo.fmp12	0	  updating .FP7 references in Data Sources
+2012-11-29 11:15:12.407 +0700	WindowMgmt_Demo.fmp12	0	  updating .FP7 references in Scripts
+2012-11-29 11:15:12.480 +0700	WindowMgmt_Demo.fmp12	0	  updating .FP7 references in Buttons
+2012-11-29 11:15:12.535 +0700	WindowMgmt_Demo.fmp12	0	  updating spelling options
+2012-11-29 11:15:13.092 +0700	WindowMgmt_Demo.fmp12	0	Conversion completed.
