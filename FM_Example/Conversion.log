@@ -85,3 +85,50 @@
 2012-11-29 11:15:12.480 +0700	WindowMgmt_Demo.fmp12	0	  updating .FP7 references in Buttons
 2012-11-29 11:15:12.535 +0700	WindowMgmt_Demo.fmp12	0	  updating spelling options
 2012-11-29 11:15:13.092 +0700	WindowMgmt_Demo.fmp12	0	Conversion completed.
+2012-12-04 09:58:11.042 +0700	FoundSetPortalR1500.fp7	0	Conversion started.
+2012-12-04 09:58:11.139 +0700	FoundSetPortalR1500.fp7	0	Product version: '7.0', File Format version: '7'
+2012-12-04 09:58:11.156 +0700	FoundSetPortalR1500.fmp12	0	Copying source file to destination
+2012-12-04 09:58:11.480 +0700	FoundSetPortalR1500.fmp12	0	Updating old file Headers/Creator/FileType
+2012-12-04 09:58:11.581 +0700	FoundSetPortalR1500.fmp12	0	Updating catalogs with newer encoding
+2012-12-04 09:58:11.640 +0700	FoundSetPortalR1500.fmp12	0	Recovering: table catalog
+2012-12-04 09:58:11.668 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding table catalog order list: name 
+2012-12-04 09:58:11.710 +0700	FoundSetPortalR1500.fmp12	0	Recovering: table alias catalog
+2012-12-04 09:58:11.718 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding table alias catalog order list: name 
+2012-12-04 09:58:11.727 +0700	FoundSetPortalR1500.fmp12	0	Recovering: user account catalog
+2012-12-04 09:58:11.735 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding user account catalog order list: name 
+2012-12-04 09:58:11.743 +0700	FoundSetPortalR1500.fmp12	0	Recovering: privilege set catalog
+2012-12-04 09:58:11.751 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding privilege set catalog order list: name 
+2012-12-04 09:58:11.760 +0700	FoundSetPortalR1500.fmp12	0	Recovering: extended privileges catalog
+2012-12-04 09:58:11.768 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding extended privileges catalog order list: name 
+2012-12-04 09:58:11.777 +0700	FoundSetPortalR1500.fmp12	0	Recovering: value list catalog
+2012-12-04 09:58:11.785 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding value list catalog order list: name 
+2012-12-04 09:58:11.793 +0700	FoundSetPortalR1500.fmp12	0	Recovering: font catalog
+2012-12-04 09:58:11.801 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding font catalog order list: name 
+2012-12-04 09:58:11.810 +0700	FoundSetPortalR1500.fmp12	0	Recovering: field catalog 'Table'
+2012-12-04 09:58:11.818 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding field catalog 'Table' order list: name 
+2012-12-04 09:58:11.915 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilt value index for field 'SerialID'; 1500 item(s) now exist, difference from old index is 0
+2012-12-04 09:58:11.967 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilt word index for field 'Name'; 5 item(s) now exist, difference from old index is 0
+2012-12-04 09:58:11.991 +0700	FoundSetPortalR1500.fmp12	0	Recovering: layout catalog
+2012-12-04 09:58:12.000 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding layout catalog order list: name 
+2012-12-04 09:58:12.013 +0700	FoundSetPortalR1500.fmp12	0	Recovering: script catalog
+2012-12-04 09:58:12.413 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-04 09:58:12.422 +0700	FoundSetPortalR1500.fmp12	0	Recovering: custom menu set catalog
+2012-12-04 09:58:12.430 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding custom menu set catalog order list: name 
+2012-12-04 09:58:12.438 +0700	FoundSetPortalR1500.fmp12	0	Recovering: custom menu catalog
+2012-12-04 09:58:12.446 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding custom menu catalog order list: name 
+2012-12-04 09:58:12.483 +0700	FoundSetPortalR1500.fmp12	0	Updating script catalog checksums
+2012-12-04 09:58:12.506 +0700	FoundSetPortalR1500.fmp12	0	Recovering: script catalog
+2012-12-04 09:58:12.534 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding script catalog order list: quick reference 
+2012-12-04 09:58:12.555 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-04 09:58:12.563 +0700	FoundSetPortalR1500.fmp12	0	  Rebuilding script catalog order list: custom 
+2012-12-04 09:58:12.572 +0700	FoundSetPortalR1500.fmp12	0	  Recovering: script 'Omit' (3)
+2012-12-04 09:58:12.580 +0700	FoundSetPortalR1500.fmp12	0	  Recovering: script 'Show All' (4)
+2012-12-04 09:58:12.588 +0700	FoundSetPortalR1500.fmp12	0	  Recovering: script 'New Script' (5)
+2012-12-04 09:58:13.260 +0700	FoundSetPortalR1500.fmp12	0	2 layouts were converted.
+2012-12-04 09:58:13.289 +0700	FoundSetPortalR1500.fmp12	0	Updating old layout symbols
+2012-12-04 09:58:13.311 +0700	FoundSetPortalR1500.fmp12	0	Updating old .FP7 file references to .FMP12
+2012-12-04 09:58:13.330 +0700	FoundSetPortalR1500.fmp12	0	  updating .FP7 references in Data Sources
+2012-12-04 09:58:13.338 +0700	FoundSetPortalR1500.fmp12	0	  updating .FP7 references in Scripts
+2012-12-04 09:58:13.357 +0700	FoundSetPortalR1500.fmp12	0	  updating .FP7 references in Buttons
+2012-12-04 09:58:13.418 +0700	FoundSetPortalR1500.fmp12	0	  updating spelling options
+2012-12-04 09:58:13.525 +0700	FoundSetPortalR1500.fmp12	0	Conversion completed.

@@ -1,0 +1,4 @@
+﻿Timestamp	Filename	Error	Message
+2012-11-27 11:00:13.241 +0700	Setup.fmp12	0	*** Started consistency check of improperly closed file, total of 110 block(s) to check
+2012-11-27 11:00:13.250 +0700	Setup.fmp12	0	Reset maximum block sequence number to 86491
+2012-11-27 11:00:13.258 +0700	Setup.fmp12	0	*** Completed consistency check, checked 110 block(s)
