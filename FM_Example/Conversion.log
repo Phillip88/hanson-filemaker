@@ -132,3 +132,49 @@
 2012-12-04 09:58:13.357 +0700	FoundSetPortalR1500.fmp12	0	  updating .FP7 references in Buttons
 2012-12-04 09:58:13.418 +0700	FoundSetPortalR1500.fmp12	0	  updating spelling options
 2012-12-04 09:58:13.525 +0700	FoundSetPortalR1500.fmp12	0	Conversion completed.
+2012-12-06 15:58:33.467 +0700	PopupWindows.fp7	0	Conversion started.
+2012-12-06 15:58:33.520 +0700	PopupWindows.fp7	0	Product version: '11.0', File Format version: '7'
+2012-12-06 15:58:33.532 +0700	PopupWindows.fmp12	0	Copying source file to destination
+2012-12-06 15:58:33.610 +0700	PopupWindows.fmp12	0	Updating old file Headers/Creator/FileType
+2012-12-06 15:58:33.739 +0700	PopupWindows.fmp12	0	Updating catalogs with newer encoding
+2012-12-06 15:58:33.799 +0700	PopupWindows.fmp12	0	Recovering: table catalog
+2012-12-06 15:58:33.849 +0700	PopupWindows.fmp12	0	  Rebuilding table catalog order list: name 
+2012-12-06 15:58:33.878 +0700	PopupWindows.fmp12	0	Recovering: table alias catalog
+2012-12-06 15:58:33.886 +0700	PopupWindows.fmp12	0	  Rebuilding table alias catalog order list: name 
+2012-12-06 15:58:33.895 +0700	PopupWindows.fmp12	0	Recovering: custom function catalog
+2012-12-06 15:58:33.903 +0700	PopupWindows.fmp12	0	  Rebuilding custom function catalog order list: name 
+2012-12-06 15:58:33.912 +0700	PopupWindows.fmp12	0	Recovering: user account catalog
+2012-12-06 15:58:33.920 +0700	PopupWindows.fmp12	0	  Rebuilding user account catalog order list: name 
+2012-12-06 15:58:33.928 +0700	PopupWindows.fmp12	0	Recovering: privilege set catalog
+2012-12-06 15:58:33.936 +0700	PopupWindows.fmp12	0	  Rebuilding privilege set catalog order list: name 
+2012-12-06 15:58:33.945 +0700	PopupWindows.fmp12	0	Recovering: extended privileges catalog
+2012-12-06 15:58:33.953 +0700	PopupWindows.fmp12	0	  Rebuilding extended privileges catalog order list: name 
+2012-12-06 15:58:33.962 +0700	PopupWindows.fmp12	0	Recovering: data source catalog
+2012-12-06 15:58:33.970 +0700	PopupWindows.fmp12	0	  Rebuilding data source catalog order list: name 
+2012-12-06 15:58:33.980 +0700	PopupWindows.fmp12	0	Recovering: font catalog
+2012-12-06 15:58:33.988 +0700	PopupWindows.fmp12	0	  Rebuilding font catalog order list: name 
+2012-12-06 15:58:33.996 +0700	PopupWindows.fmp12	0	Recovering: field catalog 'Home'
+2012-12-06 15:58:34.005 +0700	PopupWindows.fmp12	0	  Rebuilding field catalog 'Home' order list: name 
+2012-12-06 15:58:34.014 +0700	PopupWindows.fmp12	0	Recovering: layout catalog
+2012-12-06 15:58:34.030 +0700	PopupWindows.fmp12	0	  Rebuilding layout catalog order list: name 
+2012-12-06 15:58:34.038 +0700	PopupWindows.fmp12	0	Recovering: script catalog
+2012-12-06 15:58:34.046 +0700	PopupWindows.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-06 15:58:34.055 +0700	PopupWindows.fmp12	0	Recovering: custom menu set catalog
+2012-12-06 15:58:34.063 +0700	PopupWindows.fmp12	0	  Rebuilding custom menu set catalog order list: name 
+2012-12-06 15:58:34.072 +0700	PopupWindows.fmp12	0	Recovering: custom menu catalog
+2012-12-06 15:58:34.088 +0700	PopupWindows.fmp12	0	  Rebuilding custom menu catalog order list: name 
+2012-12-06 15:58:34.099 +0700	PopupWindows.fmp12	0	Updating script catalog checksums
+2012-12-06 15:58:34.130 +0700	PopupWindows.fmp12	0	Recovering: script catalog
+2012-12-06 15:58:34.149 +0700	PopupWindows.fmp12	0	  Rebuilding script catalog order list: quick reference 
+2012-12-06 15:58:34.179 +0700	PopupWindows.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-06 15:58:34.188 +0700	PopupWindows.fmp12	0	  Rebuilding script catalog order list: custom 
+2012-12-06 15:58:34.197 +0700	PopupWindows.fmp12	0	  Recovering: script 'Launch Centred Popup' (3)
+2012-12-06 15:58:34.246 +0700	PopupWindows.fmp12	0	  Recovering: script 'Launch Object Aligned Popup' (4)
+2012-12-06 15:58:34.385 +0700	PopupWindows.fmp12	0	3 layouts were converted.
+2012-12-06 15:58:34.407 +0700	PopupWindows.fmp12	0	Updating old layout symbols
+2012-12-06 15:58:34.434 +0700	PopupWindows.fmp12	0	Updating old .FP7 file references to .FMP12
+2012-12-06 15:58:34.481 +0700	PopupWindows.fmp12	0	  updating .FP7 references in Data Sources
+2012-12-06 15:58:34.492 +0700	PopupWindows.fmp12	0	  updating .FP7 references in Scripts
+2012-12-06 15:58:34.530 +0700	PopupWindows.fmp12	0	  updating .FP7 references in Buttons
+2012-12-06 15:58:34.563 +0700	PopupWindows.fmp12	0	  updating spelling options
+2012-12-06 15:58:34.832 +0700	PopupWindows.fmp12	0	Conversion completed.
