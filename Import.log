@@ -158,3 +158,33 @@
 2012-12-07 11:29:51.116 +0700	Setup.fmp12	0	Import of script steps from clipboard started
 2012-12-07 11:29:51.141 +0700	trial_nextHandler	0	script steps imported : 3
 2012-12-07 11:29:51.147 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:24:13.292 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:24:13.319 +0700	trial_nextHandler	0	script steps imported : 6
+2012-12-07 13:24:13.346 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:28:05.000 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:28:05.007 +0700	check_Trial_Expired	0	script steps imported : 2
+2012-12-07 13:28:05.015 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:29:17.467 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:29:17.489 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-07 13:29:17.496 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:29:39.013 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:29:39.044 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-07 13:29:39.051 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:30:05.545 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:30:05.570 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-07 13:30:05.577 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:30:14.248 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:30:14.272 +0700	check_Trial_Expired	0	script steps imported : 1
+2012-12-07 13:30:14.279 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:43:17.101 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:43:17.107 +0700	trial_nextHandler	0	script steps imported : 1
+2012-12-07 13:43:17.114 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:47:03.301 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:47:03.326 +0700	trial_nextHandler	0	script steps imported : 1
+2012-12-07 13:47:03.341 +0700	Setup.fmp12	0	Import completed
+2012-12-07 13:51:17.485 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 13:51:17.513 +0700	trial_nextHandler	0	script steps imported : 2
+2012-12-07 13:51:17.519 +0700	Setup.fmp12	0	Import completed
+2012-12-07 17:02:44.453 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2012-12-07 17:02:44.477 +0700	OnFileOpen	0	script steps imported : 2
+2012-12-07 17:02:44.483 +0700	Setup.fmp12	0	Import completed
