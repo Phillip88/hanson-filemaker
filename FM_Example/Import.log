@@ -2,3 +2,16 @@
 2012-12-06 11:31:42.102 +0700	WindowMgmt_Demo.fmp12	0	Import of script steps from clipboard started
 2012-12-06 11:31:42.112 +0700	NewWindow - Grow Center	0	script steps imported : 1
 2012-12-06 11:31:42.119 +0700	WindowMgmt_Demo.fmp12	0	Import completed
+2012-12-13 13:18:41.906 +0700	OnTimerDemo.fmp12	0	Import of script steps from clipboard started
+2012-12-13 13:18:41.930 +0700	Display Reminders	0	script steps imported : 1
+2012-12-13 13:18:41.961 +0700	OnTimerDemo.fmp12	0	Import completed
+2012-12-13 13:52:31.829 +0700	OnTimerDemo2.fmp12	0	Import of script steps from clipboard started
+2012-12-13 13:52:31.855 +0700	test2::2::Go to Layout	105	Layout “Appointment_All” missing.
+2012-12-13 13:52:31.861 +0700	test2	0	script steps imported : 4
+2012-12-13 13:52:31.869 +0700	OnTimerDemo2.fmp12	0	Import completed
+2012-12-13 14:49:49.159 +0700	OnTimerDemo2.fmp12	0	Import of script steps from clipboard started
+2012-12-13 14:49:49.187 +0700	test2	0	script steps imported : 1
+2012-12-13 14:49:49.195 +0700	OnTimerDemo2.fmp12	0	Import completed
+2012-12-13 14:50:32.783 +0700	OnTimerDemo2.fmp12	0	Import of script steps from clipboard started
+2012-12-13 14:50:32.788 +0700	test2	0	script steps imported : 1
+2012-12-13 14:50:32.796 +0700	OnTimerDemo2.fmp12	0	Import completed

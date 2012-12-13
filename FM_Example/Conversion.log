@@ -178,3 +178,137 @@
 2012-12-06 15:58:34.530 +0700	PopupWindows.fmp12	0	  updating .FP7 references in Buttons
 2012-12-06 15:58:34.563 +0700	PopupWindows.fmp12	0	  updating spelling options
 2012-12-06 15:58:34.832 +0700	PopupWindows.fmp12	0	Conversion completed.
+2012-12-13 09:46:37.935 +0700	OnTimerDemo.fp7	0	Conversion started.
+2012-12-13 09:46:37.990 +0700	OnTimerDemo.fp7	0	Product version: '7.0', File Format version: '7'
+2012-12-13 09:46:38.207 +0700	OnTimerDemo.fmp12	0	Copying source file to destination
+2012-12-13 09:46:38.473 +0700	OnTimerDemo.fmp12	0	Updating old file Headers/Creator/FileType
+2012-12-13 09:46:38.589 +0700	OnTimerDemo.fmp12	0	Updating catalogs with newer encoding
+2012-12-13 09:46:38.657 +0700	OnTimerDemo.fmp12	0	Recovering: table catalog
+2012-12-13 09:46:38.688 +0700	OnTimerDemo.fmp12	0	  Rebuilding table catalog order list: name 
+2012-12-13 09:46:38.738 +0700	OnTimerDemo.fmp12	0	Recovering: table alias catalog
+2012-12-13 09:46:38.746 +0700	OnTimerDemo.fmp12	0	  Rebuilding table alias catalog order list: name 
+2012-12-13 09:46:38.755 +0700	OnTimerDemo.fmp12	0	Recovering: custom function catalog
+2012-12-13 09:46:38.763 +0700	OnTimerDemo.fmp12	0	  Rebuilding custom function catalog order list: name 
+2012-12-13 09:46:38.771 +0700	OnTimerDemo.fmp12	0	Recovering: user account catalog
+2012-12-13 09:46:38.779 +0700	OnTimerDemo.fmp12	0	  Rebuilding user account catalog order list: name 
+2012-12-13 09:46:38.788 +0700	OnTimerDemo.fmp12	0	Recovering: privilege set catalog
+2012-12-13 09:46:38.796 +0700	OnTimerDemo.fmp12	0	  Rebuilding privilege set catalog order list: name 
+2012-12-13 09:46:38.805 +0700	OnTimerDemo.fmp12	0	Recovering: extended privileges catalog
+2012-12-13 09:46:38.813 +0700	OnTimerDemo.fmp12	0	  Rebuilding extended privileges catalog order list: name 
+2012-12-13 09:46:38.822 +0700	OnTimerDemo.fmp12	0	Recovering: value list catalog
+2012-12-13 09:46:38.838 +0700	OnTimerDemo.fmp12	0	  Rebuilding value list catalog order list: name 
+2012-12-13 09:46:38.846 +0700	OnTimerDemo.fmp12	0	Recovering: data source catalog
+2012-12-13 09:46:38.854 +0700	OnTimerDemo.fmp12	0	  Rebuilding data source catalog order list: name 
+2012-12-13 09:46:38.863 +0700	OnTimerDemo.fmp12	0	Recovering: font catalog
+2012-12-13 09:46:38.871 +0700	OnTimerDemo.fmp12	0	  Rebuilding font catalog order list: name 
+2012-12-13 09:46:38.881 +0700	OnTimerDemo.fmp12	0	Recovering: field catalog 'Meeting'
+2012-12-13 09:46:38.896 +0700	OnTimerDemo.fmp12	0	  Rebuilding field catalog 'Meeting' order list: name 
+2012-12-13 09:46:38.908 +0700	OnTimerDemo.fmp12	0	Recovering: field catalog 'Interface'
+2012-12-13 09:46:38.946 +0700	OnTimerDemo.fmp12	0	  Rebuilding field catalog 'Interface' order list: name 
+2012-12-13 09:46:39.007 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'constant1'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.038 +0700	OnTimerDemo.fmp12	0	Recovering: field catalog 'Appointment'
+2012-12-13 09:46:39.054 +0700	OnTimerDemo.fmp12	0	  Rebuilding field catalog 'Appointment' order list: name 
+2012-12-13 09:46:39.068 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'constant1'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.186 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'Time'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.368 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'Date'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.402 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'AppointmentID'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.436 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'Reminder_Flag'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.468 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'TimestampDue'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.502 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'Reminder_Due'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.535 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'ReminderSent_Flag'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.568 +0700	OnTimerDemo.fmp12	0	  Rebuilt value index for field 'ReminderNeeded'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 09:46:39.600 +0700	OnTimerDemo.fmp12	0	Recovering: layout catalog
+2012-12-13 09:46:39.607 +0700	OnTimerDemo.fmp12	0	  Rebuilding layout catalog order list: name 
+2012-12-13 09:46:39.616 +0700	OnTimerDemo.fmp12	0	Recovering: script catalog
+2012-12-13 09:46:39.624 +0700	OnTimerDemo.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-13 09:46:39.632 +0700	OnTimerDemo.fmp12	0	Recovering: custom menu set catalog
+2012-12-13 09:46:39.640 +0700	OnTimerDemo.fmp12	0	  Rebuilding custom menu set catalog order list: name 
+2012-12-13 09:46:39.648 +0700	OnTimerDemo.fmp12	0	Recovering: custom menu catalog
+2012-12-13 09:46:39.656 +0700	OnTimerDemo.fmp12	0	  Rebuilding custom menu catalog order list: name 
+2012-12-13 09:46:39.667 +0700	OnTimerDemo.fmp12	0	Updating script catalog checksums
+2012-12-13 09:46:39.674 +0700	OnTimerDemo.fmp12	0	Recovering: script catalog
+2012-12-13 09:46:39.685 +0700	OnTimerDemo.fmp12	0	  Rebuilding script catalog order list: quick reference 
+2012-12-13 09:46:39.715 +0700	OnTimerDemo.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-13 09:46:39.723 +0700	OnTimerDemo.fmp12	0	  Rebuilding script catalog order list: custom 
+2012-12-13 09:46:39.731 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'Increment Timer' (600)
+2012-12-13 09:46:39.739 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'Select Appointment' (619)
+2012-12-13 09:46:39.748 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'Display Reminders' (620)
+2012-12-13 09:46:39.756 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'Navigate' (621)
+2012-12-13 09:46:39.764 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'OnOpen' (622)
+2012-12-13 09:46:39.772 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'Start Appointment Reminder Timer' (623)
+2012-12-13 09:46:39.781 +0700	OnTimerDemo.fmp12	0	  Recovering: script '-' (624)
+2012-12-13 09:46:39.789 +0700	OnTimerDemo.fmp12	0	  Recovering: script '-' (625)
+2012-12-13 09:46:39.797 +0700	OnTimerDemo.fmp12	0	  Recovering: script '-' (626)
+2012-12-13 09:46:39.806 +0700	OnTimerDemo.fmp12	0	  Recovering: script 'Clear Reminder Flags' (627)
+2012-12-13 09:46:40.040 +0700	OnTimerDemo.fmp12	0	5 layouts were converted.
+2012-12-13 09:46:40.062 +0700	OnTimerDemo.fmp12	0	Updating old layout symbols
+2012-12-13 09:46:40.323 +0700	OnTimerDemo.fmp12	0	Updating old .FP7 file references to .FMP12
+2012-12-13 09:46:40.395 +0700	OnTimerDemo.fmp12	0	  updating .FP7 references in Data Sources
+2012-12-13 09:46:40.424 +0700	OnTimerDemo.fmp12	0	  updating .FP7 references in Scripts
+2012-12-13 09:46:40.466 +0700	OnTimerDemo.fmp12	0	  updating .FP7 references in Buttons
+2012-12-13 09:46:40.572 +0700	OnTimerDemo.fmp12	0	  updating spelling options
+2012-12-13 09:46:40.815 +0700	OnTimerDemo.fmp12	0	Conversion completed.
+2012-12-13 16:01:25.334 +0700	CollapsibleListSample.fp7	0	Conversion started.
+2012-12-13 16:01:25.420 +0700	CollapsibleListSample.fp7	0	Product version: '11.0', File Format version: '7'
+2012-12-13 16:01:25.619 +0700	CollapsibleListSample.fmp12	0	Copying source file to destination
+2012-12-13 16:01:25.953 +0700	CollapsibleListSample.fmp12	0	Updating old file Headers/Creator/FileType
+2012-12-13 16:01:26.147 +0700	CollapsibleListSample.fmp12	0	Updating catalogs with newer encoding
+2012-12-13 16:01:26.181 +0700	CollapsibleListSample.fmp12	0	Recovering: table catalog
+2012-12-13 16:01:26.216 +0700	CollapsibleListSample.fmp12	0	  Rebuilding table catalog order list: name 
+2012-12-13 16:01:26.225 +0700	CollapsibleListSample.fmp12	0	Recovering: table alias catalog
+2012-12-13 16:01:26.233 +0700	CollapsibleListSample.fmp12	0	  Rebuilding table alias catalog order list: name 
+2012-12-13 16:01:26.242 +0700	CollapsibleListSample.fmp12	0	Recovering: custom function catalog
+2012-12-13 16:01:26.258 +0700	CollapsibleListSample.fmp12	0	  Rebuilding custom function catalog order list: name 
+2012-12-13 16:01:26.268 +0700	CollapsibleListSample.fmp12	0	Recovering: user account catalog
+2012-12-13 16:01:26.301 +0700	CollapsibleListSample.fmp12	0	  Rebuilding user account catalog order list: name 
+2012-12-13 16:01:26.545 +0700	CollapsibleListSample.fmp12	0	Recovering: privilege set catalog
+2012-12-13 16:01:26.561 +0700	CollapsibleListSample.fmp12	0	  Rebuilding privilege set catalog order list: name 
+2012-12-13 16:01:26.578 +0700	CollapsibleListSample.fmp12	0	Recovering: extended privileges catalog
+2012-12-13 16:01:26.586 +0700	CollapsibleListSample.fmp12	0	  Rebuilding extended privileges catalog order list: name 
+2012-12-13 16:01:26.595 +0700	CollapsibleListSample.fmp12	0	Recovering: value list catalog
+2012-12-13 16:01:26.603 +0700	CollapsibleListSample.fmp12	0	  Rebuilding value list catalog order list: name 
+2012-12-13 16:01:26.612 +0700	CollapsibleListSample.fmp12	0	Recovering: font catalog
+2012-12-13 16:01:26.620 +0700	CollapsibleListSample.fmp12	0	  Rebuilding font catalog order list: name 
+2012-12-13 16:01:26.661 +0700	CollapsibleListSample.fmp12	0	Recovering: field catalog 'DogBreed'
+2012-12-13 16:01:26.687 +0700	CollapsibleListSample.fmp12	0	  Rebuilding field catalog 'DogBreed' order list: name 
+2012-12-13 16:01:26.700 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '__kp__BreedID'; 10 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.731 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field 'Name'; 10 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.765 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '_kf_Type'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.796 +0700	CollapsibleListSample.fmp12	0	Recovering: field catalog 'BreedVaration'
+2012-12-13 16:01:26.803 +0700	CollapsibleListSample.fmp12	0	  Rebuilding field catalog 'BreedVaration' order list: name 
+2012-12-13 16:01:26.819 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '__kp__BreedVarID'; 51 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.849 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field 'Name'; 49 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.883 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '_kf_Breed'; 10 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.912 +0700	CollapsibleListSample.fmp12	0	Recovering: field catalog 'Shadow'
+2012-12-13 16:01:26.920 +0700	CollapsibleListSample.fmp12	0	  Rebuilding field catalog 'Shadow' order list: name 
+2012-12-13 16:01:26.933 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '__kp__ShadowID'; 10 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.965 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '_kf_Breed'; 10 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:26.998 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field 'sortOrder'; 10 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:27.031 +0700	CollapsibleListSample.fmp12	0	  Rebuilt value index for field '_kf_Variation'; 1 item(s) now exist, difference from old index is 0
+2012-12-13 16:01:27.062 +0700	CollapsibleListSample.fmp12	0	Recovering: field catalog 'Resources'
+2012-12-13 16:01:27.070 +0700	CollapsibleListSample.fmp12	0	  Rebuilding field catalog 'Resources' order list: name 
+2012-12-13 16:01:27.082 +0700	CollapsibleListSample.fmp12	0	Recovering: layout catalog
+2012-12-13 16:01:27.112 +0700	CollapsibleListSample.fmp12	0	  Rebuilding layout catalog order list: name 
+2012-12-13 16:01:27.121 +0700	CollapsibleListSample.fmp12	0	Recovering: script catalog
+2012-12-13 16:01:27.128 +0700	CollapsibleListSample.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-13 16:01:27.137 +0700	CollapsibleListSample.fmp12	0	Recovering: custom menu set catalog
+2012-12-13 16:01:27.145 +0700	CollapsibleListSample.fmp12	0	  Rebuilding custom menu set catalog order list: name 
+2012-12-13 16:01:27.154 +0700	CollapsibleListSample.fmp12	0	Recovering: custom menu catalog
+2012-12-13 16:01:27.162 +0700	CollapsibleListSample.fmp12	0	  Rebuilding custom menu catalog order list: name 
+2012-12-13 16:01:27.173 +0700	CollapsibleListSample.fmp12	0	Updating script catalog checksums
+2012-12-13 16:01:27.204 +0700	CollapsibleListSample.fmp12	0	Recovering: script catalog
+2012-12-13 16:01:27.217 +0700	CollapsibleListSample.fmp12	0	  Rebuilding script catalog order list: quick reference 
+2012-12-13 16:01:27.245 +0700	CollapsibleListSample.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-13 16:01:27.254 +0700	CollapsibleListSample.fmp12	0	  Rebuilding script catalog order list: custom 
+2012-12-13 16:01:27.263 +0700	CollapsibleListSample.fmp12	0	  Recovering: script 'BreedList_ShowSubList (breedID ¶ action)' (4)
+2012-12-13 16:01:27.271 +0700	CollapsibleListSample.fmp12	0	  Recovering: script 'BreedList__Refresh' (5)
+2012-12-13 16:01:27.279 +0700	CollapsibleListSample.fmp12	0	  Recovering: script 'Navigation ( destination )' (6)
+2012-12-13 16:01:27.287 +0700	CollapsibleListSample.fmp12	0	  Recovering: script 'OnOpen' (7)
+2012-12-13 16:01:27.499 +0700	CollapsibleListSample.fmp12	0	7 layouts were converted.
+2012-12-13 16:01:27.529 +0700	CollapsibleListSample.fmp12	0	Updating old layout symbols
+2012-12-13 16:01:27.707 +0700	CollapsibleListSample.fmp12	0	Updating old .FP7 file references to .FMP12
+2012-12-13 16:01:27.717 +0700	CollapsibleListSample.fmp12	0	  updating .FP7 references in Data Sources
+2012-12-13 16:01:27.726 +0700	CollapsibleListSample.fmp12	0	  updating .FP7 references in Scripts
+2012-12-13 16:01:27.754 +0700	CollapsibleListSample.fmp12	0	  updating .FP7 references in Buttons
+2012-12-13 16:01:27.819 +0700	CollapsibleListSample.fmp12	0	  updating spelling options
+2012-12-13 16:01:28.026 +0700	CollapsibleListSample.fmp12	0	Conversion completed.
