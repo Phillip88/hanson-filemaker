@@ -24,7 +24,7 @@
 #include "files.h"
 
 
-FMX_PROC(fmx::errcode) GenerateProductKey(short          funcId,
+FMX_PROC(fmx::errcode) GenerateLicenseKey(short          funcId,
 										  const fmx::ExprEnv&  environment,
 										  const fmx::DataVect& dataVect,
 										  fmx::Data&     result )
@@ -45,7 +45,7 @@ FMX_PROC(fmx::errcode) GenerateProductKey(short          funcId,
     {
         //We have at least one parameter. Read it and return correct information.
 		char *param1AsChar, *param2AsChar;
-        //const Text& param = dataVect.AtAsText(0);
+        const Text& param = dataVect.AtAsText(0);
 		GetAsciiFMText(dataVect.AtAsText(0), param1AsChar);
 		GetAsciiFMText(dataVect.AtAsText(1), param2AsChar);
 		string param1AsStr(param1AsChar);
@@ -58,7 +58,7 @@ FMX_PROC(fmx::errcode) GenerateProductKey(short          funcId,
 		// sbbDigest now contains the hash of strData.
 		hash.CalculateDigest(sbbDigest.begin(),
 							(byte const*) (param1AsStr+param2AsStr).data(),
-							(param1AsStr+param2AsStr).size());
+							(param1AsStr+"HANSON2012"+param2AsStr).size());
 	  
 		string hashValue;
 		HexEncoder(new StringSink(hashValue)).Put(sbbDigest.begin(), sbbDigest.size());

@@ -178,12 +178,14 @@ enum {
 
 // Function definitions
 
+
 #define FUNCTION_1_C_NAME         X24FT_Version
 #define FUNCTION_1_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
 #define FUNCTION_1_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
 #define FUNCTION_1_PROTOTYPE      "X24FT_Version( { versionFormat } )"
 
 
+/*
 #define FUNCTION_2_C_NAME         MyFunction
 // This function vailable for both client and server-side calculations
 #define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
@@ -192,16 +194,16 @@ enum {
 #define FUNCTION_2_PARAMS         kAtLeast_0_Parameters, kAtWorst_1_Parameter
 // #define FUNCTION_2_PROTOTYPE      "Helloworld({ hello })"
 #define FUNCTION_2_PROTOTYPE      "MyFunction(param1; { param2 } )"
+*/
 
-/*
-#define FUNCTION_2_C_NAME         GenerateProductKey
+#define FUNCTION_2_C_NAME         GenerateLicenseKey
 // This function vailable for both client and server-side calculations
 #define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
 // This function is going to take TWO parameters, the first one being REQUIRED, 
 // and the second one OPTIONAL
 #define FUNCTION_2_PARAMS         kAtLeast_0_Parameters, kAtLeast_2_Parameters
 #define FUNCTION_2_PROTOTYPE      "GenerateProductKey(param1; param2 )"
-*/
+
 /*
 #define FUNCTION_3_C_NAME         Plato_Sum
 #define FUNCTION_3_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs

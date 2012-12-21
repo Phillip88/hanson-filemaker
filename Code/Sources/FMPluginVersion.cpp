@@ -136,6 +136,7 @@ FMX_PROC(fmx::errcode) X24FT_Version(short funcId, const fmx::ExprEnv& environme
     return err;
 }
 
+/*
 FMX_PROC(fmx::errcode) MyFunction(short          funcId,
                                   const fmx::ExprEnv&  environment,
                                   const fmx::DataVect& dataVect,
@@ -171,3 +172,4 @@ FMX_PROC(fmx::errcode) MyFunction(short          funcId,
 	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
 	return err;
 }
+*/
