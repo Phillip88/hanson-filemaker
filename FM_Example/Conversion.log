@@ -357,3 +357,60 @@
 2012-12-14 09:08:01.180 +0700	virtual tablesREV.fmp12	0	  updating .FP7 references in Buttons
 2012-12-14 09:08:01.217 +0700	virtual tablesREV.fmp12	0	  updating spelling options
 2012-12-14 09:08:01.315 +0700	virtual tablesREV.fmp12	0	Conversion completed.
+2012-12-25 15:41:31.043 +0700	PortalFoundSet.fp7	0	Conversion started.
+2012-12-25 15:41:31.124 +0700	PortalFoundSet.fp7	0	Product version: '8.0', File Format version: '7'
+2012-12-25 15:41:31.141 +0700	PortalFoundSet.fmp12	0	Copying source file to destination
+2012-12-25 15:41:31.495 +0700	PortalFoundSet.fmp12	0	Updating old file Headers/Creator/FileType
+2012-12-25 15:41:32.291 +0700	PortalFoundSet.fmp12	0	Updating catalogs with newer encoding
+2012-12-25 15:41:32.335 +0700	PortalFoundSet.fmp12	0	Recovering: table catalog
+2012-12-25 15:41:32.377 +0700	PortalFoundSet.fmp12	0	  Rebuilding table catalog order list: name 
+2012-12-25 15:41:32.399 +0700	PortalFoundSet.fmp12	0	Recovering: table alias catalog
+2012-12-25 15:41:32.407 +0700	PortalFoundSet.fmp12	0	  Rebuilding table alias catalog order list: name 
+2012-12-25 15:41:32.416 +0700	PortalFoundSet.fmp12	0	Recovering: custom function catalog
+2012-12-25 15:41:32.441 +0700	PortalFoundSet.fmp12	0	  Rebuilding custom function catalog order list: name 
+2012-12-25 15:41:32.449 +0700	PortalFoundSet.fmp12	0	Recovering: user account catalog
+2012-12-25 15:41:32.457 +0700	PortalFoundSet.fmp12	0	  Rebuilding user account catalog order list: name 
+2012-12-25 15:41:32.466 +0700	PortalFoundSet.fmp12	0	Recovering: privilege set catalog
+2012-12-25 15:41:32.474 +0700	PortalFoundSet.fmp12	0	  Rebuilding privilege set catalog order list: name 
+2012-12-25 15:41:32.483 +0700	PortalFoundSet.fmp12	0	Recovering: extended privileges catalog
+2012-12-25 15:41:32.491 +0700	PortalFoundSet.fmp12	0	  Rebuilding extended privileges catalog order list: name 
+2012-12-25 15:41:32.499 +0700	PortalFoundSet.fmp12	0	Recovering: value list catalog
+2012-12-25 15:41:32.507 +0700	PortalFoundSet.fmp12	0	  Rebuilding value list catalog order list: name 
+2012-12-25 15:41:32.516 +0700	PortalFoundSet.fmp12	0	Recovering: font catalog
+2012-12-25 15:41:32.524 +0700	PortalFoundSet.fmp12	0	  Rebuilding font catalog order list: name 
+2012-12-25 15:41:32.533 +0700	PortalFoundSet.fmp12	0	Recovering: field catalog 'PortalFoundSet'
+2012-12-25 15:41:32.541 +0700	PortalFoundSet.fmp12	0	  Rebuilding field catalog 'PortalFoundSet' order list: name 
+2012-12-25 15:41:32.585 +0700	PortalFoundSet.fmp12	0	  Rebuilt word index for field 'Author'; 195 item(s) now exist, difference from old index is 0
+2012-12-25 15:41:32.617 +0700	PortalFoundSet.fmp12	0	  Rebuilt word index for field 'BookTitle'; 203 item(s) now exist, difference from old index is 0
+2012-12-25 15:41:32.645 +0700	PortalFoundSet.fmp12	0	  Rebuilt value index for field 'Serial#'; 101 item(s) now exist, difference from old index is 0
+2012-12-25 15:41:32.675 +0700	PortalFoundSet.fmp12	0	Recovering: field catalog 'System'
+2012-12-25 15:41:32.683 +0700	PortalFoundSet.fmp12	0	  Rebuilding field catalog 'System' order list: name 
+2012-12-25 15:41:32.693 +0700	PortalFoundSet.fmp12	0	Recovering: layout catalog
+2012-12-25 15:41:32.699 +0700	PortalFoundSet.fmp12	0	  Rebuilding layout catalog order list: name 
+2012-12-25 15:41:32.708 +0700	PortalFoundSet.fmp12	0	Recovering: script catalog
+2012-12-25 15:41:32.716 +0700	PortalFoundSet.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-25 15:41:32.725 +0700	PortalFoundSet.fmp12	0	Recovering: custom menu set catalog
+2012-12-25 15:41:32.733 +0700	PortalFoundSet.fmp12	0	  Rebuilding custom menu set catalog order list: name 
+2012-12-25 15:41:32.766 +0700	PortalFoundSet.fmp12	0	Recovering: custom menu catalog
+2012-12-25 15:41:32.790 +0700	PortalFoundSet.fmp12	0	  Rebuilding custom menu catalog order list: name 
+2012-12-25 15:41:32.801 +0700	PortalFoundSet.fmp12	0	Updating script catalog checksums
+2012-12-25 15:41:32.808 +0700	PortalFoundSet.fmp12	0	Recovering: script catalog
+2012-12-25 15:41:32.817 +0700	PortalFoundSet.fmp12	0	  Rebuilding script catalog order list: quick reference 
+2012-12-25 15:41:32.824 +0700	PortalFoundSet.fmp12	0	  Rebuilding script catalog order list: name 
+2012-12-25 15:41:32.832 +0700	PortalFoundSet.fmp12	0	  Rebuilding script catalog order list: custom 
+2012-12-25 15:41:32.841 +0700	PortalFoundSet.fmp12	0	  Recovering: script 'StartRun' (1)
+2012-12-25 15:41:32.849 +0700	PortalFoundSet.fmp12	0	  Recovering: script 'EndRun' (2)
+2012-12-25 15:41:32.857 +0700	PortalFoundSet.fmp12	0	  Recovering: script '-' (3)
+2012-12-25 15:41:32.865 +0700	PortalFoundSet.fmp12	0	  Recovering: script 'About...' (4)
+2012-12-25 15:41:32.874 +0700	PortalFoundSet.fmp12	0	  Recovering: script '...email the developer' (5)
+2012-12-25 15:41:32.882 +0700	PortalFoundSet.fmp12	0	  Recovering: script '-' (6)
+2012-12-25 15:41:32.891 +0700	PortalFoundSet.fmp12	0	  Recovering: script 'Find Records' (7)
+2012-12-25 15:41:32.899 +0700	PortalFoundSet.fmp12	0	  Recovering: script 'Omit Record' (8)
+2012-12-25 15:41:33.094 +0700	PortalFoundSet.fmp12	0	3 layouts were converted.
+2012-12-25 15:41:33.124 +0700	PortalFoundSet.fmp12	0	Updating old layout symbols
+2012-12-25 15:41:33.190 +0700	PortalFoundSet.fmp12	0	Updating old .FP7 file references to .FMP12
+2012-12-25 15:41:33.200 +0700	PortalFoundSet.fmp12	0	  updating .FP7 references in Data Sources
+2012-12-25 15:41:33.225 +0700	PortalFoundSet.fmp12	0	  updating .FP7 references in Scripts
+2012-12-25 15:41:33.446 +0700	PortalFoundSet.fmp12	0	  updating .FP7 references in Buttons
+2012-12-25 15:41:33.536 +0700	PortalFoundSet.fmp12	0	  updating spelling options
+2012-12-25 15:41:33.818 +0700	PortalFoundSet.fmp12	0	Conversion completed.
