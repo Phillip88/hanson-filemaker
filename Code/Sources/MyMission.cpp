@@ -23,7 +23,7 @@
 #include "hex.h"
 #include "files.h"
 
-
+#pragma mark GenerateLicenseKey
 FMX_PROC(fmx::errcode) GenerateLicenseKey(short          funcId,
 										  const fmx::ExprEnv&  environment,
 										  const fmx::DataVect& dataVect,
@@ -36,8 +36,6 @@ FMX_PROC(fmx::errcode) GenerateLicenseKey(short          funcId,
 	using namespace CryptoPP;
 
 	fmx::errcode        err = 0;
-    FMX_Unichar         pluginName[256];
-    FMX_Unichar         pluginVersion[256];
     TextAutoPtr    tempText;
     TextAutoPtr    resultText;
 
@@ -65,6 +63,36 @@ FMX_PROC(fmx::errcode) GenerateLicenseKey(short          funcId,
 		utils::formatStringWithHiphen(hashValue);
 
 		resultText->Assign(&hashValue[0]);
+	}
+	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
+	return err;
+}
+
+#pragma mark OpenFolderBrowser
+FMX_PROC(fmx::errcode) OpenFolderBrowser(short funcId,
+									     const fmx::ExprEnv&  environment,
+									     const fmx::DataVect& dataVect,
+									     fmx::Data&     result )
+{
+	#pragma unused(funcId,environment)
+
+	using namespace fmx;
+
+	fmx::errcode        err = 0;
+	TextAutoPtr    resultText;
+
+    if( dataVect.Size() == 1 )
+    {
+		std::string szPath("C:\Program Files");
+
+		if (utils::GetFolder(szPath, "Select a folder.", NULL) == true) 
+		{
+			resultText->Assign(szPath.c_str());
+		}
+		else
+		{
+			resultText->Assign("No folder selected!");
+		}
 	}
 	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
 	return err;

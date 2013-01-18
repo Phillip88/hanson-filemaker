@@ -4,7 +4,7 @@
 // Written by Phillip VU <phat.vu@enclave.vn>
 //
 ////////////////////////////////////////////////////////////////////////////////
-
+/*
 #include "stdio.h"
 #include "FMPlugin.h"
 #include "FMTemplate/FMTemplate.h"
@@ -45,4 +45,4 @@ FMX_PROC(fmx::errcode) MyFunction(short          funcId,
 	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
 	return err;
 }
-
+*/
