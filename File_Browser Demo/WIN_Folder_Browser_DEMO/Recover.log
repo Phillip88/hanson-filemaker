@@ -1,0 +1,4 @@
+﻿Timestamp	Filename	Error	Message
+2013-01-22 14:43:54.248 +0700	testFolderBrowser.fmp12	0	*** Started consistency check of improperly closed file, total of 23 block(s) to check
+2013-01-22 14:43:54.417 +0700	testFolderBrowser.fmp12	0	Reset maximum block sequence number to 1306
+2013-01-22 14:43:54.468 +0700	testFolderBrowser.fmp12	0	*** Completed consistency check, checked 23 block(s)
