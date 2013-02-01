@@ -206,3 +206,11 @@
 2013-01-28 17:28:31.458 +0700	Setup.fmp12	0	Import of script steps from clipboard started
 2013-01-28 17:28:31.487 +0700	Check Trial Expired	0	script steps imported : 1
 2013-01-28 17:28:31.494 +0700	Setup.fmp12	0	Import completed
+2013-01-31 10:43:03.014 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2013-01-31 10:43:03.067 +0700	Browse Folder::1::Set Variable	106	Table referred to in the calculation “OpenFolderBrowser( testFolderBrowser::Folder )” is missing.
+2013-01-31 10:43:03.118 +0700	Browse Folder::2::Set Field	102	Field “Folder” missing.
+2013-01-31 10:43:03.146 +0700	Browse Folder	0	script steps imported : 4
+2013-01-31 10:43:03.154 +0700	Setup.fmp12	0	Import completed
+2013-01-31 13:26:33.334 +0700	Setup.fmp12	0	Import of script steps from clipboard started
+2013-01-31 13:26:33.369 +0700	Browse Folder	0	script steps imported : 1
+2013-01-31 13:26:33.376 +0700	Setup.fmp12	0	Import completed

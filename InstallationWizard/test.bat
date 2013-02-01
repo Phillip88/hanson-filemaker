@@ -1,0 +1,1 @@
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\ODBC\ODBC.INI\ODBC Data Sources" /f /v "TEST" /t REG_SZ /d "FileMaker ODBC"

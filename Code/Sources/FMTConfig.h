@@ -200,6 +200,31 @@ enum {
 #define FUNCTION_3_PARAMS         kAtLeast_0_Parameters, kAtLeast_1_Parameter
 #define FUNCTION_3_PROTOTYPE      "OpenFolderBrowser( param1 )"
 
+#define FUNCTION_4_C_NAME         CheckNetworkStatus
+// This function vailable for both client and server-side calculations
+#define FUNCTION_4_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+// This function is going to take TWO parameters, the first one being REQUIRED, 
+// and the second one OPTIONAL
+#define FUNCTION_4_PARAMS         kAtLeast_0_Parameters, kAtLeast_1_Parameter
+#define FUNCTION_4_PROTOTYPE      "CheckNetworkStatus( param1 )"
+
+#define FUNCTION_5_C_NAME         GetDataFromClipBoard
+// This function vailable for both client and server-side calculations
+#define FUNCTION_5_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+// This function is going to take TWO parameters, the first one being REQUIRED, 
+// and the second one OPTIONAL
+#define FUNCTION_5_PARAMS         kAtLeast_0_Parameters, kAtLeast_1_Parameter
+#define FUNCTION_5_PROTOTYPE      "GetDataFromClipBoard( param1 )"
+
+#define FUNCTION_6_C_NAME         SubString
+// This function vailable for both client and server-side calculations
+#define FUNCTION_6_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+// This function is going to take TWO parameters, the first one being REQUIRED, 
+// and the second one OPTIONAL
+#define FUNCTION_6_PARAMS         kAtLeast_0_Parameters, kAtLeast_3_Parameters
+#define FUNCTION_6_PROTOTYPE      "SubString( param1; param1; param3 )"
+
+
 /*
 #define FUNCTION_3_C_NAME         Plato_Sum
 #define FUNCTION_3_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs

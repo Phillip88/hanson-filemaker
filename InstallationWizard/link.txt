@@ -1,0 +1,7 @@
+http://ss64.com/nt/reg.html
+http://nsis.sourceforge.net/Features
+http://www.installsite.org/pages/en/msi/authoring.htm
+http://msdn.microsoft.com/en-us/dd299405.aspx
+http://code.google.com/p/tiodbc/wiki/CommunityExamples
+PowerShell
+vbscript
