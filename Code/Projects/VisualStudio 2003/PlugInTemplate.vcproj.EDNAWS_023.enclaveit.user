@@ -9,7 +9,7 @@
 			Name="Debug|Win32"
 			>
 			<DebugSettings
-				Command="C:\Program Files (x86)\FileMaker\FileMaker Pro 12\FileMaker Pro.exe"
+				Command="C:\Program Files (x86)\FileMaker\FileMaker Pro 12 Advanced\FileMaker Pro Advanced.exe"
 				WorkingDirectory=""
 				CommandArguments=""
 				Attach="false"

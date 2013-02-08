@@ -10,22 +10,22 @@ int main()
     tiodbc::statement my_statement;
 
     // Create a connection with an ODBC Data Source
-    if (!my_connection.connect("Phillip_Test", "admin", ""))
+    if (!my_connection.connect("PCS_DSN","Admin","admin"))
     {
         cout << "Cannot connect to the Data Source" << endl
             << my_connection.last_error();
-		getch();
         return 1;
     }
 
     // Execute a direct query
-    if (!my_statement.execute_direct(my_connection, "SELECT * FROM Phillip_Test"))
+    if (!my_statement.execute_direct(my_connection, "Select * from MachineIdentifier where MAC_Adress = '00:1a:4d:4d:93:4g'"))
     {
         cout << "Cannot execute query!" << endl
             << my_connection.last_error();
         return 2;
     }
 
+	cout << my_statement.fetch_next() << endl;
     // Get results from statement
     while(my_statement.fetch_next())
     {

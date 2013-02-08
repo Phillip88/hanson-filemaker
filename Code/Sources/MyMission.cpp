@@ -199,3 +199,110 @@ FMX_PROC(fmx::errcode) SubString(short funcId,
 	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
 	return err;
 }
+
+std::string GetFMServerSystem(tiodbc::connection conn, tiodbc::statement st)
+{
+	st.execute_direct(conn, "Select top 1 CurrentSystemTime from SystemTime");
+	if (!st.fetch_next())
+		return "-1";
+	else
+		return st.field(1).as_string();
+}
+
+#pragma mark Check_A_MAC_Installed_As_Trial
+FMX_PROC(fmx::errcode) Check_A_MAC_Installed_As_Trial(short funcId,
+								                      const fmx::ExprEnv&  environment,
+													  const fmx::DataVect& dataVect,
+													  fmx::Data&     result )
+{
+	#pragma unused(funcId,environment)
+
+	using namespace fmx;
+	using namespace std;
+
+	fmx::errcode   err = 0;
+	TextAutoPtr    resultText;
+
+    if( dataVect.Size() == 1 )
+    {
+		char *param1AsChar;
+		GetAsciiFMText(dataVect.AtAsText(0), param1AsChar);
+		std::string mac_address(param1AsChar);
+		tiodbc::connection conn;
+		if(utils::GetConnectionViaODBC(conn,"PCS_DSN","Admin","admin"))
+		{
+			tiodbc::statement st;
+			st.execute_direct(conn, "Select Installed_On, Customer_ID, Type_Id, Package_ID from MachineIdentifier where MAC_Adress = '" + mac_address + "'");
+			std::string response;
+
+			// The MAC address has been installed as trial before.
+			if(st.fetch_next())
+			{
+				// get field Install_On as Date type which format : YYYY-MM-DD
+				string installedOnAsString = st.field(1).as_string();
+				string custId = st.field(2).as_string();
+				string typeId = st.field(3).as_string();
+				string packageId = st.field(4).as_string();
+				st.execute_direct(conn, "Select CurrentSystemTime from SystemTime");
+				st.fetch_next();
+				string currentFMServerDateAsString = st.field(1).as_string();
+
+				int year, month, day;
+				stringstream(installedOnAsString.substr(0,4)) >> year;
+				stringstream(installedOnAsString.substr(5,2)) >> month;
+				stringstream(installedOnAsString.substr(8,2)) >> day;
+				tm installedOnAsDate = utils::make_tm(year, month, day);
+				stringstream(currentFMServerDateAsString.substr(0,4)) >> year;
+				stringstream(currentFMServerDateAsString.substr(5,2)) >> month;
+				stringstream(currentFMServerDateAsString.substr(8,2)) >> day;
+				tm tmServerDate = utils::make_tm(year, month, day);
+				int remainingDays = 30 - utils::DayInDifference(tmServerDate, installedOnAsDate) + 1;
+
+				// The trial version expired.
+				if (remainingDays <= 0)
+				{
+					response = "Expired,-1,"; // signal to determine the trial is expired.
+				}
+				else
+				{
+					std::stringstream ss;
+					ss << remainingDays;
+					response = "NExpired," + ss.str() + ","; // signal to determine the trial is NOT expired.
+				}
+
+				// get package name via package id
+				st.execute_direct(conn, "Select Package_Name from Package where Package_ID = " + packageId);
+				st.fetch_next();
+				std::string packageName = st.field(1).as_string();
+				
+				// get license type via license type id
+				st.execute_direct(conn, "Select Type from LicenseType where License_Type_ID = " + typeId);
+				st.fetch_next();
+				std::string licenseType = st.field(1).as_string();
+
+				st.execute_direct(conn, "Select First_Name, Middle_Name, Last_Name, Email, Business_Phone, Address from Customer where Customer_ID = " + custId);
+				st.fetch_next();
+				
+				response = response + 
+							st.field(1).as_string() + " " + st.field(2).as_string() + " " + st.field(3).as_string() + "," + // fullname
+							st.field(4).as_string() + "," + // email
+							st.field(5).as_string() + "," + // phone
+							st.field(6).as_string() + "," + // address
+							installedOnAsString     + "," + // installed on
+							packageName             + "," + // package name
+							licenseType;				    // license type ( single / network ).
+				resultText->Assign(response.c_str());
+			}
+			else // This is the first installation of this machine.
+			{
+				resultText->Assign("");
+			}
+		}
+		else
+		{
+			resultText->Assign("Connection failed");
+		}
+	}
+	err = result.SetAsText( *resultText, dataVect.At(0).GetLocale() );
+	return err;
+}

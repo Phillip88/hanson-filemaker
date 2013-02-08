@@ -224,6 +224,13 @@ enum {
 #define FUNCTION_6_PARAMS         kAtLeast_0_Parameters, kAtLeast_3_Parameters
 #define FUNCTION_6_PROTOTYPE      "SubString( param1; param1; param3 )"
 
+#define FUNCTION_7_C_NAME         Check_A_MAC_Installed_As_Trial
+// This function vailable for both client and server-side calculations
+#define FUNCTION_7_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
+// This function is going to take TWO parameters, the first one being REQUIRED, 
+// and the second one OPTIONAL
+#define FUNCTION_7_PARAMS         kAtLeast_0_Parameters, kAtLeast_1_Parameter
+#define FUNCTION_7_PROTOTYPE      "Check_A_MAC_Installed_As_Trial( param1 )"
 
 /*
 #define FUNCTION_3_C_NAME         Plato_Sum

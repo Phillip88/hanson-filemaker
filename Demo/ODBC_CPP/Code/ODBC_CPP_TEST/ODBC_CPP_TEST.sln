@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Call_BatchFile", "Call_Batc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetData_Clipboard", "GetData_Clipboard\GetData_Clipboard.vcproj", "{681E01F8-FDE5-43E6-8E28-6D721A71DE6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateTime", "DateTime\DateTime.vcproj", "{71B0506E-CF97-4FE3-8242-389139993D04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateTimeCompare", "DateTimeCompare\DateTimeCompare.vcproj", "{E922A591-F878-4C1D-82BA-4F5C9FBBDACE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +29,14 @@ Global
 		{681E01F8-FDE5-43E6-8E28-6D721A71DE6C}.Debug|Win32.Build.0 = Debug|Win32
 		{681E01F8-FDE5-43E6-8E28-6D721A71DE6C}.Release|Win32.ActiveCfg = Release|Win32
 		{681E01F8-FDE5-43E6-8E28-6D721A71DE6C}.Release|Win32.Build.0 = Release|Win32
+		{71B0506E-CF97-4FE3-8242-389139993D04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71B0506E-CF97-4FE3-8242-389139993D04}.Debug|Win32.Build.0 = Debug|Win32
+		{71B0506E-CF97-4FE3-8242-389139993D04}.Release|Win32.ActiveCfg = Release|Win32
+		{71B0506E-CF97-4FE3-8242-389139993D04}.Release|Win32.Build.0 = Release|Win32
+		{E922A591-F878-4C1D-82BA-4F5C9FBBDACE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E922A591-F878-4C1D-82BA-4F5C9FBBDACE}.Debug|Win32.Build.0 = Debug|Win32
+		{E922A591-F878-4C1D-82BA-4F5C9FBBDACE}.Release|Win32.ActiveCfg = Release|Win32
+		{E922A591-F878-4C1D-82BA-4F5C9FBBDACE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
